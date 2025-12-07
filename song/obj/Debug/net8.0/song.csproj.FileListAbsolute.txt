@@ -1,0 +1,7 @@
+D:\ש.ב\זילברברג\song\obj\Debug\net8.0\song.csproj.AssemblyReference.cache
+D:\ש.ב\זילברברג\song\obj\Debug\net8.0\song.GeneratedMSBuildEditorConfig.editorconfig
+D:\ש.ב\זילברברג\song\obj\Debug\net8.0\song.AssemblyInfoInputs.cache
+D:\ש.ב\זילברברג\song\obj\Debug\net8.0\song.AssemblyInfo.cs
+D:\ש.ב\זילברברג\song\obj\Debug\net8.0\song.csproj.CoreCompileInputs.cache
+D:\ש.ב\זילברברג\song\obj\Debug\net8.0\song.MvcApplicationPartsAssemblyInfo.cs
+D:\ש.ב\זילברברג\song\obj\Debug\net8.0\song.MvcApplicationPartsAssemblyInfo.cache
