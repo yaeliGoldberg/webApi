@@ -10,7 +10,7 @@ public interface Iuser
 {
     List<userType> GetAll();
 
-    songType? Get(int id);
+    userType? Get(int id);
 
     void Add(userType user);
 

@@ -9,11 +9,11 @@ namespace SONG.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class SingControllers : ControllerBase
+    public class SingController : ControllerBase
     {
         Isong service;
 
-        public SingControllers(Isong service){
+        public SingController(Isong service){
             this.service=service;
         }
         

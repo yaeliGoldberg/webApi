@@ -152,3 +152,46 @@ Z:\יד תשפו\גולדברג יעל\זילברברג\git\webApi\song\obj\Debu
 Z:\יד תשפו\גולדברג יעל\זילברברג\git\webApi\song\obj\Debug\net9.0\song.csproj.Up2Date
 Z:\יד תשפו\גולדברג יעל\זילברברג\git\webApi\song\obj\Debug\net9.0\song.genruntimeconfig.cache
 Z:\יד תשפו\גולדברג יעל\זילברברג\git\webApi\song\obj\Debug\net9.0\ref\song.dll
+C:\Users\user\Desktop\webapi-git\webApi\song\obj\Debug\net9.0\song.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\webapi-git\webApi\song\obj\Debug\net9.0\song.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\webapi-git\webApi\song\obj\Debug\net9.0\song.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\webapi-git\webApi\song\obj\Debug\net9.0\song.AssemblyInfo.cs
+C:\Users\user\Desktop\webapi-git\webApi\song\obj\Debug\net9.0\song.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\webapi-git\webApi\song\obj\Debug\net9.0\song.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\user\Desktop\webapi-git\webApi\song\obj\Debug\net9.0\song.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user\Desktop\webapi-git\webApi\song\obj\Debug\net9.0\song.sourcelink.json
+C:\Users\user\Desktop\webapi-git\webApi\song\obj\Debug\net9.0\song.dll
+C:\Users\user\Desktop\webapi-git\webApi\song\obj\Debug\net9.0\refint\song.dll
+C:\Users\user\Desktop\webapi-git\webApi\song\obj\Debug\net9.0\song.pdb
+C:\Users\user\Desktop\webapi-git\webApi\song\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\user\Desktop\webapi-git\webApi\song\bin\Debug\net9.0\appsettings.json
+C:\Users\user\Desktop\webapi-git\webApi\song\bin\Debug\net9.0\song.staticwebassets.runtime.json
+C:\Users\user\Desktop\webapi-git\webApi\song\bin\Debug\net9.0\song.staticwebassets.endpoints.json
+C:\Users\user\Desktop\webapi-git\webApi\song\bin\Debug\net9.0\song.exe
+C:\Users\user\Desktop\webapi-git\webApi\song\bin\Debug\net9.0\song.deps.json
+C:\Users\user\Desktop\webapi-git\webApi\song\bin\Debug\net9.0\song.runtimeconfig.json
+C:\Users\user\Desktop\webapi-git\webApi\song\bin\Debug\net9.0\song.dll
+C:\Users\user\Desktop\webapi-git\webApi\song\bin\Debug\net9.0\song.pdb
+C:\Users\user\Desktop\webapi-git\webApi\song\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\user\Desktop\webapi-git\webApi\song\bin\Debug\net9.0\Microsoft.OpenApi.dll
+C:\Users\user\Desktop\webapi-git\webApi\song\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\user\Desktop\webapi-git\webApi\song\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\user\Desktop\webapi-git\webApi\song\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\user\Desktop\webapi-git\webApi\song\obj\Debug\net9.0\scopedcss\bundle\song.styles.css
+C:\Users\user\Desktop\webapi-git\webApi\song\obj\Debug\net9.0\compressed\dgehnki1ck-zoxlk5se5i.gz
+C:\Users\user\Desktop\webapi-git\webApi\song\obj\Debug\net9.0\compressed\ounqjg8aod-go2asuw6p6.gz
+C:\Users\user\Desktop\webapi-git\webApi\song\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\user\Desktop\webapi-git\webApi\song\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\user\Desktop\webapi-git\webApi\song\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\user\Desktop\webapi-git\webApi\song\obj\Debug\net9.0\staticwebassets\msbuild.song.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\user\Desktop\webapi-git\webApi\song\obj\Debug\net9.0\staticwebassets\msbuild.song.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\user\Desktop\webapi-git\webApi\song\obj\Debug\net9.0\staticwebassets\msbuild.build.song.props
+C:\Users\user\Desktop\webapi-git\webApi\song\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.song.props
+C:\Users\user\Desktop\webapi-git\webApi\song\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.song.props
+C:\Users\user\Desktop\webapi-git\webApi\song\obj\Debug\net9.0\staticwebassets.pack.json
+C:\Users\user\Desktop\webapi-git\webApi\song\obj\Debug\net9.0\song.csproj.Up2Date
+C:\Users\user\Desktop\webapi-git\webApi\song\obj\Debug\net9.0\song.genruntimeconfig.cache
+C:\Users\user\Desktop\webapi-git\webApi\song\obj\Debug\net9.0\ref\song.dll
+C:\Users\user\Desktop\webapi-git\webApi\song\obj\Debug\net9.0\compressed\9xkk9l311w-1a29ly9su0.gz
+C:\Users\user\Desktop\webapi-git\webApi\song\obj\Debug\net9.0\compressed\ddsw5v31av-esbq31o3ku.gz
+C:\Users\user\Desktop\webapi-git\webApi\song\obj\Debug\net9.0\compressed\kim2pfhg89-slik5ekse4.gz

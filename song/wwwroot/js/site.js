@@ -1,5 +1,5 @@
 console.log("site.js loaded!");
-const uri = '/SingControllers';
+const uri = '/Sing';
 let music = [];
 
 function getItems() {

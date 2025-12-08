@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wAQy6U3qVD+76bB/+ZnTxuWmkNAn1do7oMmJurMaCjA=",
+  "Hash": "HJfHTU90dYYvnhQFAG8QxjRQ6nfEWfCZcwUr7w7SKdk=",
   "Source": "song",
   "BasePath": "_content/song",
   "Mode": "Default",
@@ -10,38 +10,59 @@
     {
       "Name": "song\\wwwroot",
       "Source": "song",
-      "ContentRoot": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\webapi-git\\webApi\\song\\wwwroot\\",
       "BasePath": "_content/song",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\9xkk9l311w-dh8h8707us.gz",
+      "Identity": "C:\\Users\\user\\Desktop\\webapi-git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\9xkk9l311w-1a29ly9su0.gz",
       "SourceId": "song",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\webapi-git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/song",
-      "RelativePath": "js/site#[.{fingerprint=dh8h8707us}]?.js.gz",
+      "RelativePath": "js/site#[.{fingerprint=1a29ly9su0}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\wwwroot\\js\\site.js",
+      "RelatedAsset": "C:\\Users\\user\\Desktop\\webapi-git\\webApi\\song\\wwwroot\\js\\site.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "8cgehqyuu2",
-      "Integrity": "yLzb23b7MZ/YV9BKjguocNI3ht8CR2cD2RcI8ZX8ZRM=",
+      "Fingerprint": "plt37ptz9h",
+      "Integrity": "Y0ybX3crkyu64PumgY/y8/9n+C0Ys5/bQzFdR4cLfjI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\wwwroot\\js\\site.js"
+      "OriginalItemSpec": "C:\\Users\\user\\Desktop\\webapi-git\\webApi\\song\\wwwroot\\js\\site.js"
     },
     {
-      "Identity": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\dgehnki1ck-zoxlk5se5i.gz",
+      "Identity": "C:\\Users\\user\\Desktop\\webapi-git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\ddsw5v31av-esbq31o3ku.gz",
       "SourceId": "song",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\webapi-git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/song",
+      "RelativePath": "js/user#[.{fingerprint=esbq31o3ku}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\user\\Desktop\\webapi-git\\webApi\\song\\wwwroot\\js\\user.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "73dn1tw5op",
+      "Integrity": "AxfkCltxJtZV5fupjG0hAR/+pZu4GSha3MgyisjJ4i4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\user\\Desktop\\webapi-git\\webApi\\song\\wwwroot\\js\\user.js"
+    },
+    {
+      "Identity": "C:\\Users\\user\\Desktop\\webapi-git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\dgehnki1ck-zoxlk5se5i.gz",
+      "SourceId": "song",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\webapi-git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/song",
       "RelativePath": "css/site#[.{fingerprint=zoxlk5se5i}]?.css.gz",
       "AssetKind": "All",
@@ -49,62 +70,62 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\wwwroot\\css\\site.css",
+      "RelatedAsset": "C:\\Users\\user\\Desktop\\webapi-git\\webApi\\song\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "6iwh808co5",
       "Integrity": "MrkGjfJbtiTQKCqzljej72Njbw6vWKiTb/Xs3LUMWco=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\wwwroot\\css\\site.css"
+      "OriginalItemSpec": "C:\\Users\\user\\Desktop\\webapi-git\\webApi\\song\\wwwroot\\css\\site.css"
     },
     {
-      "Identity": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\kim2pfhg89-e8e5locdtf.gz",
+      "Identity": "C:\\Users\\user\\Desktop\\webapi-git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\kim2pfhg89-slik5ekse4.gz",
       "SourceId": "song",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\webapi-git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/song",
-      "RelativePath": "index#[.{fingerprint=e8e5locdtf}]?.html.gz",
+      "RelativePath": "index#[.{fingerprint=slik5ekse4}]?.html.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\wwwroot\\index.html",
+      "RelatedAsset": "C:\\Users\\user\\Desktop\\webapi-git\\webApi\\song\\wwwroot\\index.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "w7ntb3c202",
-      "Integrity": "NM7XUm8u5luRD0a0h13bBxhmsav2784AVT3/oE5KDa0=",
+      "Fingerprint": "fkk5iwp328",
+      "Integrity": "XxlLhbph4EsmHybixqdFqHPZ9EFo2B/D/ZNWdZqwMKM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\wwwroot\\index.html"
+      "OriginalItemSpec": "C:\\Users\\user\\Desktop\\webapi-git\\webApi\\song\\wwwroot\\index.html"
     },
     {
-      "Identity": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\ounqjg8aod-zd3skyf12k.gz",
+      "Identity": "C:\\Users\\user\\Desktop\\webapi-git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\ounqjg8aod-go2asuw6p6.gz",
       "SourceId": "song",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\webapi-git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/song",
-      "RelativePath": "users#[.{fingerprint=zd3skyf12k}]?.html.gz",
+      "RelativePath": "users#[.{fingerprint=go2asuw6p6}]?.html.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\wwwroot\\users.html",
+      "RelatedAsset": "C:\\Users\\user\\Desktop\\webapi-git\\webApi\\song\\wwwroot\\users.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "0gh5olomvp",
-      "Integrity": "kHNAYsUunVMmuv+AtrGg9NjLTW3jno2wN32SXmqLvKM=",
+      "Fingerprint": "q49ogecm3v",
+      "Integrity": "xnPyiYuyzkKG90vhXgL9uxxpFE92h88p9dhiPzMp9Es=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\wwwroot\\users.html"
+      "OriginalItemSpec": "C:\\Users\\user\\Desktop\\webapi-git\\webApi\\song\\wwwroot\\users.html"
     },
     {
-      "Identity": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\user\\Desktop\\webapi-git\\webApi\\song\\wwwroot\\css\\site.css",
       "SourceId": "song",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\webapi-git\\webApi\\song\\wwwroot\\",
       "BasePath": "_content/song",
       "RelativePath": "css/site#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -122,10 +143,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\wwwroot\\index.html",
+      "Identity": "C:\\Users\\user\\Desktop\\webapi-git\\webApi\\song\\wwwroot\\index.html",
       "SourceId": "song",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\webapi-git\\webApi\\song\\wwwroot\\",
       "BasePath": "_content/song",
       "RelativePath": "index#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -136,17 +157,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "e8e5locdtf",
-      "Integrity": "TmwkCynr6ZEe5CyVagKZ/Hl4wLPzpCom62pD+CvHReA=",
+      "Fingerprint": "slik5ekse4",
+      "Integrity": "MPhtWF1bkLdTYr69woxRq16fNeDMHETcdSt5EaE/QL4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\user\\Desktop\\webapi-git\\webApi\\song\\wwwroot\\js\\site.js",
       "SourceId": "song",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\webapi-git\\webApi\\song\\wwwroot\\",
       "BasePath": "_content/song",
       "RelativePath": "js/site#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -157,17 +178,38 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "dh8h8707us",
-      "Integrity": "z3Y6lcjDjjq77K+9V/c36a9xvLNji6UCzQmJNL0/Tyo=",
+      "Fingerprint": "1a29ly9su0",
+      "Integrity": "yQAfGknA49Yh6v8KDeea3XsjWItnc/d99ysw1b+GKwo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\wwwroot\\users.html",
+      "Identity": "C:\\Users\\user\\Desktop\\webapi-git\\webApi\\song\\wwwroot\\js\\user.js",
       "SourceId": "song",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\webapi-git\\webApi\\song\\wwwroot\\",
+      "BasePath": "_content/song",
+      "RelativePath": "js/user#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "esbq31o3ku",
+      "Integrity": "0nqFwPVykaTe3yNL3hg8RtUBidNv0n19oYL6OmE/3YA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\user.js"
+    },
+    {
+      "Identity": "C:\\Users\\user\\Desktop\\webapi-git\\webApi\\song\\wwwroot\\users.html",
+      "SourceId": "song",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\webapi-git\\webApi\\song\\wwwroot\\",
       "BasePath": "_content/song",
       "RelativePath": "users#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -178,8 +220,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "zd3skyf12k",
-      "Integrity": "J4zA+J+iXYshJfc2FWkNV7BS7Sxldnk5RwzgsuUaheY=",
+      "Fingerprint": "go2asuw6p6",
+      "Integrity": "8H8D9Z2LK/mc5FNNuQEEYxlkwpmUhofjMUikLFo1Zdw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\users.html"
@@ -188,7 +230,7 @@
   "Endpoints": [
     {
       "Route": "css/site.css",
-      "AssetFile": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\dgehnki1ck-zoxlk5se5i.gz",
+      "AssetFile": "C:\\Users\\user\\Desktop\\webapi-git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\dgehnki1ck-zoxlk5se5i.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -211,7 +253,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 07 Dec 2025 13:52:16 GMT"
+          "Value": "Mon, 08 Dec 2025 19:15:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -243,7 +285,7 @@
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\wwwroot\\css\\site.css",
+      "AssetFile": "C:\\Users\\user\\Desktop\\webapi-git\\webApi\\song\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -264,7 +306,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 07 Dec 2025 13:52:16 GMT"
+          "Value": "Mon, 08 Dec 2025 19:15:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -280,7 +322,7 @@
     },
     {
       "Route": "css/site.css.gz",
-      "AssetFile": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\dgehnki1ck-zoxlk5se5i.gz",
+      "AssetFile": "C:\\Users\\user\\Desktop\\webapi-git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\dgehnki1ck-zoxlk5se5i.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -301,7 +343,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 07 Dec 2025 13:52:16 GMT"
+          "Value": "Mon, 08 Dec 2025 19:15:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -325,7 +367,7 @@
     },
     {
       "Route": "css/site.zoxlk5se5i.css",
-      "AssetFile": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\dgehnki1ck-zoxlk5se5i.gz",
+      "AssetFile": "C:\\Users\\user\\Desktop\\webapi-git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\dgehnki1ck-zoxlk5se5i.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -348,7 +390,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 07 Dec 2025 13:52:16 GMT"
+          "Value": "Mon, 08 Dec 2025 19:15:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -388,7 +430,7 @@
     },
     {
       "Route": "css/site.zoxlk5se5i.css",
-      "AssetFile": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\wwwroot\\css\\site.css",
+      "AssetFile": "C:\\Users\\user\\Desktop\\webapi-git\\webApi\\song\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -409,7 +451,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 07 Dec 2025 13:52:16 GMT"
+          "Value": "Mon, 08 Dec 2025 19:15:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -433,7 +475,7 @@
     },
     {
       "Route": "css/site.zoxlk5se5i.css.gz",
-      "AssetFile": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\dgehnki1ck-zoxlk5se5i.gz",
+      "AssetFile": "C:\\Users\\user\\Desktop\\webapi-git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\dgehnki1ck-zoxlk5se5i.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -454,7 +496,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 07 Dec 2025 13:52:16 GMT"
+          "Value": "Mon, 08 Dec 2025 19:15:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -485,13 +527,13 @@
       ]
     },
     {
-      "Route": "index.e8e5locdtf.html",
-      "AssetFile": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\kim2pfhg89-e8e5locdtf.gz",
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\user\\Desktop\\webapi-git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\kim2pfhg89-slik5ekse4.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001545595054"
+          "Quality": "0.001474926254"
         }
       ],
       "ResponseHeaders": [
@@ -501,15 +543,152 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "646"
+          "Value": "677"
         },
         {
           "Name": "ETag",
-          "Value": "\"NM7XUm8u5luRD0a0h13bBxhmsav2784AVT3/oE5KDa0=\""
+          "Value": "\"XxlLhbph4EsmHybixqdFqHPZ9EFo2B/D/ZNWdZqwMKM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 07 Dec 2025 13:52:16 GMT"
+          "Value": "Mon, 08 Dec 2025 20:17:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"MPhtWF1bkLdTYr69woxRq16fNeDMHETcdSt5EaE/QL4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MPhtWF1bkLdTYr69woxRq16fNeDMHETcdSt5EaE/QL4="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\user\\Desktop\\webapi-git\\webApi\\song\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1668"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MPhtWF1bkLdTYr69woxRq16fNeDMHETcdSt5EaE/QL4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 08 Dec 2025 20:17:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MPhtWF1bkLdTYr69woxRq16fNeDMHETcdSt5EaE/QL4="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "C:\\Users\\user\\Desktop\\webapi-git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\kim2pfhg89-slik5ekse4.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "677"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XxlLhbph4EsmHybixqdFqHPZ9EFo2B/D/ZNWdZqwMKM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 08 Dec 2025 20:17:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XxlLhbph4EsmHybixqdFqHPZ9EFo2B/D/ZNWdZqwMKM="
+        }
+      ]
+    },
+    {
+      "Route": "index.slik5ekse4.html",
+      "AssetFile": "C:\\Users\\user\\Desktop\\webapi-git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\kim2pfhg89-slik5ekse4.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001474926254"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "677"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XxlLhbph4EsmHybixqdFqHPZ9EFo2B/D/ZNWdZqwMKM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 08 Dec 2025 20:17:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -529,13 +708,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"TmwkCynr6ZEe5CyVagKZ/Hl4wLPzpCom62pD+CvHReA=\""
+          "Value": "W/\"MPhtWF1bkLdTYr69woxRq16fNeDMHETcdSt5EaE/QL4=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "e8e5locdtf"
+          "Value": "slik5ekse4"
         },
         {
           "Name": "label",
@@ -543,13 +722,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-TmwkCynr6ZEe5CyVagKZ/Hl4wLPzpCom62pD+CvHReA="
+          "Value": "sha256-MPhtWF1bkLdTYr69woxRq16fNeDMHETcdSt5EaE/QL4="
         }
       ]
     },
     {
-      "Route": "index.e8e5locdtf.html",
-      "AssetFile": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\wwwroot\\index.html",
+      "Route": "index.slik5ekse4.html",
+      "AssetFile": "C:\\Users\\user\\Desktop\\webapi-git\\webApi\\song\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -558,7 +737,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1597"
+          "Value": "1668"
         },
         {
           "Name": "Content-Type",
@@ -566,11 +745,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"TmwkCynr6ZEe5CyVagKZ/Hl4wLPzpCom62pD+CvHReA=\""
+          "Value": "\"MPhtWF1bkLdTYr69woxRq16fNeDMHETcdSt5EaE/QL4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 07 Dec 2025 13:52:16 GMT"
+          "Value": "Mon, 08 Dec 2025 20:17:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -580,7 +759,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "e8e5locdtf"
+          "Value": "slik5ekse4"
         },
         {
           "Name": "label",
@@ -588,13 +767,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-TmwkCynr6ZEe5CyVagKZ/Hl4wLPzpCom62pD+CvHReA="
+          "Value": "sha256-MPhtWF1bkLdTYr69woxRq16fNeDMHETcdSt5EaE/QL4="
         }
       ]
     },
     {
-      "Route": "index.e8e5locdtf.html.gz",
-      "AssetFile": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\kim2pfhg89-e8e5locdtf.gz",
+      "Route": "index.slik5ekse4.html.gz",
+      "AssetFile": "C:\\Users\\user\\Desktop\\webapi-git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\kim2pfhg89-slik5ekse4.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -603,7 +782,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "646"
+          "Value": "677"
         },
         {
           "Name": "Content-Type",
@@ -611,11 +790,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"NM7XUm8u5luRD0a0h13bBxhmsav2784AVT3/oE5KDa0=\""
+          "Value": "\"XxlLhbph4EsmHybixqdFqHPZ9EFo2B/D/ZNWdZqwMKM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 07 Dec 2025 13:52:16 GMT"
+          "Value": "Mon, 08 Dec 2025 20:17:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -633,7 +812,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "e8e5locdtf"
+          "Value": "slik5ekse4"
         },
         {
           "Name": "label",
@@ -641,18 +820,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-NM7XUm8u5luRD0a0h13bBxhmsav2784AVT3/oE5KDa0="
+          "Value": "sha256-XxlLhbph4EsmHybixqdFqHPZ9EFo2B/D/ZNWdZqwMKM="
         }
       ]
     },
     {
-      "Route": "index.html",
-      "AssetFile": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\kim2pfhg89-e8e5locdtf.gz",
+      "Route": "js/site.1a29ly9su0.js",
+      "AssetFile": "C:\\Users\\user\\Desktop\\webapi-git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\9xkk9l311w-1a29ly9su0.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001545595054"
+          "Quality": "0.000703234880"
         }
       ],
       "ResponseHeaders": [
@@ -662,152 +841,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "646"
+          "Value": "1421"
         },
         {
           "Name": "ETag",
-          "Value": "\"NM7XUm8u5luRD0a0h13bBxhmsav2784AVT3/oE5KDa0=\""
+          "Value": "\"Y0ybX3crkyu64PumgY/y8/9n+C0Ys5/bQzFdR4cLfjI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 07 Dec 2025 13:52:16 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"TmwkCynr6ZEe5CyVagKZ/Hl4wLPzpCom62pD+CvHReA=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-TmwkCynr6ZEe5CyVagKZ/Hl4wLPzpCom62pD+CvHReA="
-        }
-      ]
-    },
-    {
-      "Route": "index.html",
-      "AssetFile": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\wwwroot\\index.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1597"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"TmwkCynr6ZEe5CyVagKZ/Hl4wLPzpCom62pD+CvHReA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 07 Dec 2025 13:52:16 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-TmwkCynr6ZEe5CyVagKZ/Hl4wLPzpCom62pD+CvHReA="
-        }
-      ]
-    },
-    {
-      "Route": "index.html.gz",
-      "AssetFile": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\kim2pfhg89-e8e5locdtf.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "646"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"NM7XUm8u5luRD0a0h13bBxhmsav2784AVT3/oE5KDa0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 07 Dec 2025 13:52:16 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-NM7XUm8u5luRD0a0h13bBxhmsav2784AVT3/oE5KDa0="
-        }
-      ]
-    },
-    {
-      "Route": "js/site.dh8h8707us.js",
-      "AssetFile": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\9xkk9l311w-dh8h8707us.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000704721635"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1418"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"yLzb23b7MZ/YV9BKjguocNI3ht8CR2cD2RcI8ZX8ZRM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 07 Dec 2025 13:52:16 GMT"
+          "Value": "Mon, 08 Dec 2025 20:01:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -827,13 +869,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"z3Y6lcjDjjq77K+9V/c36a9xvLNji6UCzQmJNL0/Tyo=\""
+          "Value": "W/\"yQAfGknA49Yh6v8KDeea3XsjWItnc/d99ysw1b+GKwo=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "dh8h8707us"
+          "Value": "1a29ly9su0"
         },
         {
           "Name": "label",
@@ -841,13 +883,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-z3Y6lcjDjjq77K+9V/c36a9xvLNji6UCzQmJNL0/Tyo="
+          "Value": "sha256-yQAfGknA49Yh6v8KDeea3XsjWItnc/d99ysw1b+GKwo="
         }
       ]
     },
     {
-      "Route": "js/site.dh8h8707us.js",
-      "AssetFile": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\wwwroot\\js\\site.js",
+      "Route": "js/site.1a29ly9su0.js",
+      "AssetFile": "C:\\Users\\user\\Desktop\\webapi-git\\webApi\\song\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -856,7 +898,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7118"
+          "Value": "7107"
         },
         {
           "Name": "Content-Type",
@@ -864,11 +906,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"z3Y6lcjDjjq77K+9V/c36a9xvLNji6UCzQmJNL0/Tyo=\""
+          "Value": "\"yQAfGknA49Yh6v8KDeea3XsjWItnc/d99ysw1b+GKwo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 07 Dec 2025 13:52:16 GMT"
+          "Value": "Mon, 08 Dec 2025 20:01:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -878,7 +920,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "dh8h8707us"
+          "Value": "1a29ly9su0"
         },
         {
           "Name": "label",
@@ -886,13 +928,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-z3Y6lcjDjjq77K+9V/c36a9xvLNji6UCzQmJNL0/Tyo="
+          "Value": "sha256-yQAfGknA49Yh6v8KDeea3XsjWItnc/d99ysw1b+GKwo="
         }
       ]
     },
     {
-      "Route": "js/site.dh8h8707us.js.gz",
-      "AssetFile": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\9xkk9l311w-dh8h8707us.gz",
+      "Route": "js/site.1a29ly9su0.js.gz",
+      "AssetFile": "C:\\Users\\user\\Desktop\\webapi-git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\9xkk9l311w-1a29ly9su0.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -901,7 +943,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1418"
+          "Value": "1421"
         },
         {
           "Name": "Content-Type",
@@ -909,11 +951,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"yLzb23b7MZ/YV9BKjguocNI3ht8CR2cD2RcI8ZX8ZRM=\""
+          "Value": "\"Y0ybX3crkyu64PumgY/y8/9n+C0Ys5/bQzFdR4cLfjI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 07 Dec 2025 13:52:16 GMT"
+          "Value": "Mon, 08 Dec 2025 20:01:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -931,7 +973,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "dh8h8707us"
+          "Value": "1a29ly9su0"
         },
         {
           "Name": "label",
@@ -939,18 +981,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-yLzb23b7MZ/YV9BKjguocNI3ht8CR2cD2RcI8ZX8ZRM="
+          "Value": "sha256-Y0ybX3crkyu64PumgY/y8/9n+C0Ys5/bQzFdR4cLfjI="
         }
       ]
     },
     {
       "Route": "js/site.js",
-      "AssetFile": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\9xkk9l311w-dh8h8707us.gz",
+      "AssetFile": "C:\\Users\\user\\Desktop\\webapi-git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\9xkk9l311w-1a29ly9su0.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000704721635"
+          "Quality": "0.000703234880"
         }
       ],
       "ResponseHeaders": [
@@ -960,15 +1002,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1418"
+          "Value": "1421"
         },
         {
           "Name": "ETag",
-          "Value": "\"yLzb23b7MZ/YV9BKjguocNI3ht8CR2cD2RcI8ZX8ZRM=\""
+          "Value": "\"Y0ybX3crkyu64PumgY/y8/9n+C0Ys5/bQzFdR4cLfjI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 07 Dec 2025 13:52:16 GMT"
+          "Value": "Mon, 08 Dec 2025 20:01:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -988,19 +1030,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"z3Y6lcjDjjq77K+9V/c36a9xvLNji6UCzQmJNL0/Tyo=\""
+          "Value": "W/\"yQAfGknA49Yh6v8KDeea3XsjWItnc/d99ysw1b+GKwo=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-z3Y6lcjDjjq77K+9V/c36a9xvLNji6UCzQmJNL0/Tyo="
+          "Value": "sha256-yQAfGknA49Yh6v8KDeea3XsjWItnc/d99ysw1b+GKwo="
         }
       ]
     },
     {
       "Route": "js/site.js",
-      "AssetFile": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\wwwroot\\js\\site.js",
+      "AssetFile": "C:\\Users\\user\\Desktop\\webapi-git\\webApi\\song\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1009,7 +1051,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7118"
+          "Value": "7107"
         },
         {
           "Name": "Content-Type",
@@ -1017,11 +1059,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"z3Y6lcjDjjq77K+9V/c36a9xvLNji6UCzQmJNL0/Tyo=\""
+          "Value": "\"yQAfGknA49Yh6v8KDeea3XsjWItnc/d99ysw1b+GKwo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 07 Dec 2025 13:52:16 GMT"
+          "Value": "Mon, 08 Dec 2025 20:01:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1031,13 +1073,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-z3Y6lcjDjjq77K+9V/c36a9xvLNji6UCzQmJNL0/Tyo="
+          "Value": "sha256-yQAfGknA49Yh6v8KDeea3XsjWItnc/d99ysw1b+GKwo="
         }
       ]
     },
     {
       "Route": "js/site.js.gz",
-      "AssetFile": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\9xkk9l311w-dh8h8707us.gz",
+      "AssetFile": "C:\\Users\\user\\Desktop\\webapi-git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\9xkk9l311w-1a29ly9su0.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1046,7 +1088,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1418"
+          "Value": "1421"
         },
         {
           "Name": "Content-Type",
@@ -1054,11 +1096,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"yLzb23b7MZ/YV9BKjguocNI3ht8CR2cD2RcI8ZX8ZRM=\""
+          "Value": "\"Y0ybX3crkyu64PumgY/y8/9n+C0Ys5/bQzFdR4cLfjI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 07 Dec 2025 13:52:16 GMT"
+          "Value": "Mon, 08 Dec 2025 20:01:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1076,18 +1118,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-yLzb23b7MZ/YV9BKjguocNI3ht8CR2cD2RcI8ZX8ZRM="
+          "Value": "sha256-Y0ybX3crkyu64PumgY/y8/9n+C0Ys5/bQzFdR4cLfjI="
         }
       ]
     },
     {
-      "Route": "users.html",
-      "AssetFile": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\ounqjg8aod-zd3skyf12k.gz",
+      "Route": "js/user.esbq31o3ku.js",
+      "AssetFile": "C:\\Users\\user\\Desktop\\webapi-git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\ddsw5v31av-esbq31o3ku.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.005747126437"
+          "Quality": "0.001007049345"
         }
       ],
       "ResponseHeaders": [
@@ -1097,19 +1139,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "173"
+          "Value": "992"
         },
         {
           "Name": "ETag",
-          "Value": "\"kHNAYsUunVMmuv+AtrGg9NjLTW3jno2wN32SXmqLvKM=\""
+          "Value": "\"AxfkCltxJtZV5fupjG0hAR/+pZu4GSha3MgyisjJ4i4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 07 Dec 2025 14:14:27 GMT"
+          "Value": "Mon, 08 Dec 2025 20:01:25 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -1121,23 +1163,31 @@
         },
         {
           "Name": "Content-Type",
-          "Value": "text/html"
+          "Value": "text/javascript"
         },
         {
           "Name": "ETag",
-          "Value": "W/\"J4zA+J+iXYshJfc2FWkNV7BS7Sxldnk5RwzgsuUaheY=\""
+          "Value": "W/\"0nqFwPVykaTe3yNL3hg8RtUBidNv0n19oYL6OmE/3YA=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "esbq31o3ku"
+        },
+        {
+          "Name": "label",
+          "Value": "js/user.js"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-J4zA+J+iXYshJfc2FWkNV7BS7Sxldnk5RwzgsuUaheY="
+          "Value": "sha256-0nqFwPVykaTe3yNL3hg8RtUBidNv0n19oYL6OmE/3YA="
         }
       ]
     },
     {
-      "Route": "users.html",
-      "AssetFile": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\wwwroot\\users.html",
+      "Route": "js/user.esbq31o3ku.js",
+      "AssetFile": "C:\\Users\\user\\Desktop\\webapi-git\\webApi\\song\\wwwroot\\js\\user.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1146,19 +1196,172 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "215"
+          "Value": "3433"
         },
         {
           "Name": "Content-Type",
-          "Value": "text/html"
+          "Value": "text/javascript"
         },
         {
           "Name": "ETag",
-          "Value": "\"J4zA+J+iXYshJfc2FWkNV7BS7Sxldnk5RwzgsuUaheY=\""
+          "Value": "\"0nqFwPVykaTe3yNL3hg8RtUBidNv0n19oYL6OmE/3YA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 07 Dec 2025 14:14:27 GMT"
+          "Value": "Mon, 08 Dec 2025 20:01:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "esbq31o3ku"
+        },
+        {
+          "Name": "label",
+          "Value": "js/user.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0nqFwPVykaTe3yNL3hg8RtUBidNv0n19oYL6OmE/3YA="
+        }
+      ]
+    },
+    {
+      "Route": "js/user.esbq31o3ku.js.gz",
+      "AssetFile": "C:\\Users\\user\\Desktop\\webapi-git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\ddsw5v31av-esbq31o3ku.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "992"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AxfkCltxJtZV5fupjG0hAR/+pZu4GSha3MgyisjJ4i4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 08 Dec 2025 20:01:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "esbq31o3ku"
+        },
+        {
+          "Name": "label",
+          "Value": "js/user.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AxfkCltxJtZV5fupjG0hAR/+pZu4GSha3MgyisjJ4i4="
+        }
+      ]
+    },
+    {
+      "Route": "js/user.js",
+      "AssetFile": "C:\\Users\\user\\Desktop\\webapi-git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\ddsw5v31av-esbq31o3ku.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001007049345"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "992"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AxfkCltxJtZV5fupjG0hAR/+pZu4GSha3MgyisjJ4i4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 08 Dec 2025 20:01:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"0nqFwPVykaTe3yNL3hg8RtUBidNv0n19oYL6OmE/3YA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0nqFwPVykaTe3yNL3hg8RtUBidNv0n19oYL6OmE/3YA="
+        }
+      ]
+    },
+    {
+      "Route": "js/user.js",
+      "AssetFile": "C:\\Users\\user\\Desktop\\webapi-git\\webApi\\song\\wwwroot\\js\\user.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3433"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0nqFwPVykaTe3yNL3hg8RtUBidNv0n19oYL6OmE/3YA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 08 Dec 2025 20:01:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1168,13 +1371,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-J4zA+J+iXYshJfc2FWkNV7BS7Sxldnk5RwzgsuUaheY="
+          "Value": "sha256-0nqFwPVykaTe3yNL3hg8RtUBidNv0n19oYL6OmE/3YA="
         }
       ]
     },
     {
-      "Route": "users.html.gz",
-      "AssetFile": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\ounqjg8aod-zd3skyf12k.gz",
+      "Route": "js/user.js.gz",
+      "AssetFile": "C:\\Users\\user\\Desktop\\webapi-git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\ddsw5v31av-esbq31o3ku.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1183,19 +1386,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "173"
+          "Value": "992"
         },
         {
           "Name": "Content-Type",
-          "Value": "text/html"
+          "Value": "text/javascript"
         },
         {
           "Name": "ETag",
-          "Value": "\"kHNAYsUunVMmuv+AtrGg9NjLTW3jno2wN32SXmqLvKM=\""
+          "Value": "\"AxfkCltxJtZV5fupjG0hAR/+pZu4GSha3MgyisjJ4i4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 07 Dec 2025 14:14:27 GMT"
+          "Value": "Mon, 08 Dec 2025 20:01:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1213,18 +1416,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-kHNAYsUunVMmuv+AtrGg9NjLTW3jno2wN32SXmqLvKM="
+          "Value": "sha256-AxfkCltxJtZV5fupjG0hAR/+pZu4GSha3MgyisjJ4i4="
         }
       ]
     },
     {
-      "Route": "users.zd3skyf12k.html",
-      "AssetFile": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\ounqjg8aod-zd3skyf12k.gz",
+      "Route": "users.go2asuw6p6.html",
+      "AssetFile": "C:\\Users\\user\\Desktop\\webapi-git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\ounqjg8aod-go2asuw6p6.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.005747126437"
+          "Quality": "0.001506024096"
         }
       ],
       "ResponseHeaders": [
@@ -1234,15 +1437,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "173"
+          "Value": "663"
         },
         {
           "Name": "ETag",
-          "Value": "\"kHNAYsUunVMmuv+AtrGg9NjLTW3jno2wN32SXmqLvKM=\""
+          "Value": "\"xnPyiYuyzkKG90vhXgL9uxxpFE92h88p9dhiPzMp9Es=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 07 Dec 2025 14:14:27 GMT"
+          "Value": "Mon, 08 Dec 2025 19:15:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1262,13 +1465,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"J4zA+J+iXYshJfc2FWkNV7BS7Sxldnk5RwzgsuUaheY=\""
+          "Value": "W/\"8H8D9Z2LK/mc5FNNuQEEYxlkwpmUhofjMUikLFo1Zdw=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "zd3skyf12k"
+          "Value": "go2asuw6p6"
         },
         {
           "Name": "label",
@@ -1276,13 +1479,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-J4zA+J+iXYshJfc2FWkNV7BS7Sxldnk5RwzgsuUaheY="
+          "Value": "sha256-8H8D9Z2LK/mc5FNNuQEEYxlkwpmUhofjMUikLFo1Zdw="
         }
       ]
     },
     {
-      "Route": "users.zd3skyf12k.html",
-      "AssetFile": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\wwwroot\\users.html",
+      "Route": "users.go2asuw6p6.html",
+      "AssetFile": "C:\\Users\\user\\Desktop\\webapi-git\\webApi\\song\\wwwroot\\users.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1291,7 +1494,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "215"
+          "Value": "1727"
         },
         {
           "Name": "Content-Type",
@@ -1299,11 +1502,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"J4zA+J+iXYshJfc2FWkNV7BS7Sxldnk5RwzgsuUaheY=\""
+          "Value": "\"8H8D9Z2LK/mc5FNNuQEEYxlkwpmUhofjMUikLFo1Zdw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 07 Dec 2025 14:14:27 GMT"
+          "Value": "Mon, 08 Dec 2025 19:15:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1313,7 +1516,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "zd3skyf12k"
+          "Value": "go2asuw6p6"
         },
         {
           "Name": "label",
@@ -1321,13 +1524,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-J4zA+J+iXYshJfc2FWkNV7BS7Sxldnk5RwzgsuUaheY="
+          "Value": "sha256-8H8D9Z2LK/mc5FNNuQEEYxlkwpmUhofjMUikLFo1Zdw="
         }
       ]
     },
     {
-      "Route": "users.zd3skyf12k.html.gz",
-      "AssetFile": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\ounqjg8aod-zd3skyf12k.gz",
+      "Route": "users.go2asuw6p6.html.gz",
+      "AssetFile": "C:\\Users\\user\\Desktop\\webapi-git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\ounqjg8aod-go2asuw6p6.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1336,7 +1539,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "173"
+          "Value": "663"
         },
         {
           "Name": "Content-Type",
@@ -1344,11 +1547,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"kHNAYsUunVMmuv+AtrGg9NjLTW3jno2wN32SXmqLvKM=\""
+          "Value": "\"xnPyiYuyzkKG90vhXgL9uxxpFE92h88p9dhiPzMp9Es=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 07 Dec 2025 14:14:27 GMT"
+          "Value": "Mon, 08 Dec 2025 19:15:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1366,7 +1569,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "zd3skyf12k"
+          "Value": "go2asuw6p6"
         },
         {
           "Name": "label",
@@ -1374,7 +1577,144 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-kHNAYsUunVMmuv+AtrGg9NjLTW3jno2wN32SXmqLvKM="
+          "Value": "sha256-xnPyiYuyzkKG90vhXgL9uxxpFE92h88p9dhiPzMp9Es="
+        }
+      ]
+    },
+    {
+      "Route": "users.html",
+      "AssetFile": "C:\\Users\\user\\Desktop\\webapi-git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\ounqjg8aod-go2asuw6p6.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001506024096"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "663"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xnPyiYuyzkKG90vhXgL9uxxpFE92h88p9dhiPzMp9Es=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 08 Dec 2025 19:15:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"8H8D9Z2LK/mc5FNNuQEEYxlkwpmUhofjMUikLFo1Zdw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8H8D9Z2LK/mc5FNNuQEEYxlkwpmUhofjMUikLFo1Zdw="
+        }
+      ]
+    },
+    {
+      "Route": "users.html",
+      "AssetFile": "C:\\Users\\user\\Desktop\\webapi-git\\webApi\\song\\wwwroot\\users.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1727"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8H8D9Z2LK/mc5FNNuQEEYxlkwpmUhofjMUikLFo1Zdw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 08 Dec 2025 19:15:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8H8D9Z2LK/mc5FNNuQEEYxlkwpmUhofjMUikLFo1Zdw="
+        }
+      ]
+    },
+    {
+      "Route": "users.html.gz",
+      "AssetFile": "C:\\Users\\user\\Desktop\\webapi-git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\ounqjg8aod-go2asuw6p6.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "663"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xnPyiYuyzkKG90vhXgL9uxxpFE92h88p9dhiPzMp9Es=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 08 Dec 2025 19:15:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xnPyiYuyzkKG90vhXgL9uxxpFE92h88p9dhiPzMp9Es="
         }
       ]
     }

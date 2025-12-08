@@ -1,5 +1,5 @@
 console.log("user.js loaded!");
-const uri = '/userControllers';
+const uri = '/user';
 let users = [];
 
 function getItems() {
