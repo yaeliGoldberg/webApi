@@ -7,7 +7,7 @@ namespace user.Services
 {
     public  class userService : Iuser
     {
-        public List<userType> Songs { get; }
+        public List<userType> Users { get; }
         public int nextId = 3;
         public userService()
         {
