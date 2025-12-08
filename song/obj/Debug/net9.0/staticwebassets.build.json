@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "f5Rrgtv+JonYxFKT64KO5otlVZc6B+DaPzrujzKPQO8=",
+  "Hash": "wAQy6U3qVD+76bB/+ZnTxuWmkNAn1do7oMmJurMaCjA=",
   "Source": "song",
   "BasePath": "_content/song",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "song\\wwwroot",
       "Source": "song",
-      "ContentRoot": "D:\\זילברברג-אחרוןןןןןן\\song\\wwwroot\\",
+      "ContentRoot": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\wwwroot\\",
       "BasePath": "_content/song",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\זילברברג-אחרוןןןןןן\\song\\obj\\Debug\\net9.0\\compressed\\9xkk9l311w-dh8h8707us.gz",
+      "Identity": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\9xkk9l311w-dh8h8707us.gz",
       "SourceId": "song",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\זילברברג-אחרוןןןןןן\\song\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/song",
       "RelativePath": "js/site#[.{fingerprint=dh8h8707us}]?.js.gz",
       "AssetKind": "All",
@@ -28,20 +28,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "D:\\זילברברג-אחרוןןןןןן\\song\\wwwroot\\js\\site.js",
+      "RelatedAsset": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\wwwroot\\js\\site.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "8cgehqyuu2",
       "Integrity": "yLzb23b7MZ/YV9BKjguocNI3ht8CR2cD2RcI8ZX8ZRM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\זילברברג-אחרוןןןןןן\\song\\wwwroot\\js\\site.js"
+      "OriginalItemSpec": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\wwwroot\\js\\site.js"
     },
     {
-      "Identity": "D:\\זילברברג-אחרוןןןןןן\\song\\obj\\Debug\\net9.0\\compressed\\dgehnki1ck-zoxlk5se5i.gz",
+      "Identity": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\dgehnki1ck-zoxlk5se5i.gz",
       "SourceId": "song",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\זילברברג-אחרוןןןןןן\\song\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/song",
       "RelativePath": "css/site#[.{fingerprint=zoxlk5se5i}]?.css.gz",
       "AssetKind": "All",
@@ -49,20 +49,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "D:\\זילברברג-אחרוןןןןןן\\song\\wwwroot\\css\\site.css",
+      "RelatedAsset": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "6iwh808co5",
       "Integrity": "MrkGjfJbtiTQKCqzljej72Njbw6vWKiTb/Xs3LUMWco=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\זילברברג-אחרוןןןןןן\\song\\wwwroot\\css\\site.css"
+      "OriginalItemSpec": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\זילברברג-אחרוןןןןןן\\song\\obj\\Debug\\net9.0\\compressed\\kim2pfhg89-e8e5locdtf.gz",
+      "Identity": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\kim2pfhg89-e8e5locdtf.gz",
       "SourceId": "song",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\זילברברג-אחרוןןןןןן\\song\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/song",
       "RelativePath": "index#[.{fingerprint=e8e5locdtf}]?.html.gz",
       "AssetKind": "All",
@@ -70,20 +70,41 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "D:\\זילברברג-אחרוןןןןןן\\song\\wwwroot\\index.html",
+      "RelatedAsset": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\wwwroot\\index.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "w7ntb3c202",
       "Integrity": "NM7XUm8u5luRD0a0h13bBxhmsav2784AVT3/oE5KDa0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\זילברברג-אחרוןןןןןן\\song\\wwwroot\\index.html"
+      "OriginalItemSpec": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\wwwroot\\index.html"
     },
     {
-      "Identity": "D:\\זילברברג-אחרוןןןןןן\\song\\wwwroot\\css\\site.css",
+      "Identity": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\ounqjg8aod-zd3skyf12k.gz",
       "SourceId": "song",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\זילברברג-אחרוןןןןןן\\song\\wwwroot\\",
+      "ContentRoot": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/song",
+      "RelativePath": "users#[.{fingerprint=zd3skyf12k}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\wwwroot\\users.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "0gh5olomvp",
+      "Integrity": "kHNAYsUunVMmuv+AtrGg9NjLTW3jno2wN32SXmqLvKM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\wwwroot\\users.html"
+    },
+    {
+      "Identity": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\wwwroot\\css\\site.css",
+      "SourceId": "song",
+      "SourceType": "Discovered",
+      "ContentRoot": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\wwwroot\\",
       "BasePath": "_content/song",
       "RelativePath": "css/site#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -101,10 +122,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\זילברברג-אחרוןןןןןן\\song\\wwwroot\\index.html",
+      "Identity": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\wwwroot\\index.html",
       "SourceId": "song",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\זילברברג-אחרוןןןןןן\\song\\wwwroot\\",
+      "ContentRoot": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\wwwroot\\",
       "BasePath": "_content/song",
       "RelativePath": "index#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -122,10 +143,10 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "D:\\זילברברג-אחרוןןןןןן\\song\\wwwroot\\js\\site.js",
+      "Identity": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\wwwroot\\js\\site.js",
       "SourceId": "song",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\זילברברג-אחרוןןןןןן\\song\\wwwroot\\",
+      "ContentRoot": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\wwwroot\\",
       "BasePath": "_content/song",
       "RelativePath": "js/site#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -141,12 +162,33 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\wwwroot\\users.html",
+      "SourceId": "song",
+      "SourceType": "Discovered",
+      "ContentRoot": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\wwwroot\\",
+      "BasePath": "_content/song",
+      "RelativePath": "users#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zd3skyf12k",
+      "Integrity": "J4zA+J+iXYshJfc2FWkNV7BS7Sxldnk5RwzgsuUaheY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\users.html"
     }
   ],
   "Endpoints": [
     {
       "Route": "css/site.css",
-      "AssetFile": "D:\\זילברברג-אחרוןןןןןן\\song\\obj\\Debug\\net9.0\\compressed\\dgehnki1ck-zoxlk5se5i.gz",
+      "AssetFile": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\dgehnki1ck-zoxlk5se5i.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -169,7 +211,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 06 Dec 2025 23:13:30 GMT"
+          "Value": "Sun, 07 Dec 2025 13:52:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -201,7 +243,7 @@
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "D:\\זילברברג-אחרוןןןןןן\\song\\wwwroot\\css\\site.css",
+      "AssetFile": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -222,7 +264,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 06 Dec 2025 23:13:30 GMT"
+          "Value": "Sun, 07 Dec 2025 13:52:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -238,7 +280,7 @@
     },
     {
       "Route": "css/site.css.gz",
-      "AssetFile": "D:\\זילברברג-אחרוןןןןןן\\song\\obj\\Debug\\net9.0\\compressed\\dgehnki1ck-zoxlk5se5i.gz",
+      "AssetFile": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\dgehnki1ck-zoxlk5se5i.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -259,7 +301,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 06 Dec 2025 23:13:30 GMT"
+          "Value": "Sun, 07 Dec 2025 13:52:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -283,7 +325,7 @@
     },
     {
       "Route": "css/site.zoxlk5se5i.css",
-      "AssetFile": "D:\\זילברברג-אחרוןןןןןן\\song\\obj\\Debug\\net9.0\\compressed\\dgehnki1ck-zoxlk5se5i.gz",
+      "AssetFile": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\dgehnki1ck-zoxlk5se5i.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -306,7 +348,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 06 Dec 2025 23:13:30 GMT"
+          "Value": "Sun, 07 Dec 2025 13:52:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -346,7 +388,7 @@
     },
     {
       "Route": "css/site.zoxlk5se5i.css",
-      "AssetFile": "D:\\זילברברג-אחרוןןןןןן\\song\\wwwroot\\css\\site.css",
+      "AssetFile": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -367,7 +409,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 06 Dec 2025 23:13:30 GMT"
+          "Value": "Sun, 07 Dec 2025 13:52:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -391,7 +433,7 @@
     },
     {
       "Route": "css/site.zoxlk5se5i.css.gz",
-      "AssetFile": "D:\\זילברברג-אחרוןןןןןן\\song\\obj\\Debug\\net9.0\\compressed\\dgehnki1ck-zoxlk5se5i.gz",
+      "AssetFile": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\dgehnki1ck-zoxlk5se5i.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -412,7 +454,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 06 Dec 2025 23:13:30 GMT"
+          "Value": "Sun, 07 Dec 2025 13:52:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -444,7 +486,7 @@
     },
     {
       "Route": "index.e8e5locdtf.html",
-      "AssetFile": "D:\\זילברברג-אחרוןןןןןן\\song\\obj\\Debug\\net9.0\\compressed\\kim2pfhg89-e8e5locdtf.gz",
+      "AssetFile": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\kim2pfhg89-e8e5locdtf.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -467,7 +509,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 07 Dec 2025 00:23:50 GMT"
+          "Value": "Sun, 07 Dec 2025 13:52:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -507,7 +549,7 @@
     },
     {
       "Route": "index.e8e5locdtf.html",
-      "AssetFile": "D:\\זילברברג-אחרוןןןןןן\\song\\wwwroot\\index.html",
+      "AssetFile": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -528,7 +570,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 07 Dec 2025 00:23:50 GMT"
+          "Value": "Sun, 07 Dec 2025 13:52:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -552,7 +594,7 @@
     },
     {
       "Route": "index.e8e5locdtf.html.gz",
-      "AssetFile": "D:\\זילברברג-אחרוןןןןןן\\song\\obj\\Debug\\net9.0\\compressed\\kim2pfhg89-e8e5locdtf.gz",
+      "AssetFile": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\kim2pfhg89-e8e5locdtf.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -573,7 +615,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 07 Dec 2025 00:23:50 GMT"
+          "Value": "Sun, 07 Dec 2025 13:52:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -605,7 +647,7 @@
     },
     {
       "Route": "index.html",
-      "AssetFile": "D:\\זילברברג-אחרוןןןןןן\\song\\obj\\Debug\\net9.0\\compressed\\kim2pfhg89-e8e5locdtf.gz",
+      "AssetFile": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\kim2pfhg89-e8e5locdtf.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -628,7 +670,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 07 Dec 2025 00:23:50 GMT"
+          "Value": "Sun, 07 Dec 2025 13:52:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -660,7 +702,7 @@
     },
     {
       "Route": "index.html",
-      "AssetFile": "D:\\זילברברג-אחרוןןןןןן\\song\\wwwroot\\index.html",
+      "AssetFile": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -681,7 +723,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 07 Dec 2025 00:23:50 GMT"
+          "Value": "Sun, 07 Dec 2025 13:52:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -697,7 +739,7 @@
     },
     {
       "Route": "index.html.gz",
-      "AssetFile": "D:\\זילברברג-אחרוןןןןןן\\song\\obj\\Debug\\net9.0\\compressed\\kim2pfhg89-e8e5locdtf.gz",
+      "AssetFile": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\kim2pfhg89-e8e5locdtf.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -718,7 +760,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 07 Dec 2025 00:23:50 GMT"
+          "Value": "Sun, 07 Dec 2025 13:52:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -742,7 +784,7 @@
     },
     {
       "Route": "js/site.dh8h8707us.js",
-      "AssetFile": "D:\\זילברברג-אחרוןןןןןן\\song\\obj\\Debug\\net9.0\\compressed\\9xkk9l311w-dh8h8707us.gz",
+      "AssetFile": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\9xkk9l311w-dh8h8707us.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -765,7 +807,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 07 Dec 2025 00:22:00 GMT"
+          "Value": "Sun, 07 Dec 2025 13:52:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -805,7 +847,7 @@
     },
     {
       "Route": "js/site.dh8h8707us.js",
-      "AssetFile": "D:\\זילברברג-אחרוןןןןןן\\song\\wwwroot\\js\\site.js",
+      "AssetFile": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -826,7 +868,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 07 Dec 2025 00:22:00 GMT"
+          "Value": "Sun, 07 Dec 2025 13:52:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -850,7 +892,7 @@
     },
     {
       "Route": "js/site.dh8h8707us.js.gz",
-      "AssetFile": "D:\\זילברברג-אחרוןןןןןן\\song\\obj\\Debug\\net9.0\\compressed\\9xkk9l311w-dh8h8707us.gz",
+      "AssetFile": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\9xkk9l311w-dh8h8707us.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -871,7 +913,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 07 Dec 2025 00:22:00 GMT"
+          "Value": "Sun, 07 Dec 2025 13:52:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -903,7 +945,7 @@
     },
     {
       "Route": "js/site.js",
-      "AssetFile": "D:\\זילברברג-אחרוןןןןןן\\song\\obj\\Debug\\net9.0\\compressed\\9xkk9l311w-dh8h8707us.gz",
+      "AssetFile": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\9xkk9l311w-dh8h8707us.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -926,7 +968,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 07 Dec 2025 00:22:00 GMT"
+          "Value": "Sun, 07 Dec 2025 13:52:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -958,7 +1000,7 @@
     },
     {
       "Route": "js/site.js",
-      "AssetFile": "D:\\זילברברג-אחרוןןןןןן\\song\\wwwroot\\js\\site.js",
+      "AssetFile": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -979,7 +1021,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 07 Dec 2025 00:22:00 GMT"
+          "Value": "Sun, 07 Dec 2025 13:52:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -995,7 +1037,7 @@
     },
     {
       "Route": "js/site.js.gz",
-      "AssetFile": "D:\\זילברברג-אחרוןןןןןן\\song\\obj\\Debug\\net9.0\\compressed\\9xkk9l311w-dh8h8707us.gz",
+      "AssetFile": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\9xkk9l311w-dh8h8707us.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1016,7 +1058,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 07 Dec 2025 00:22:00 GMT"
+          "Value": "Sun, 07 Dec 2025 13:52:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1035,6 +1077,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-yLzb23b7MZ/YV9BKjguocNI3ht8CR2cD2RcI8ZX8ZRM="
+        }
+      ]
+    },
+    {
+      "Route": "users.html",
+      "AssetFile": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\ounqjg8aod-zd3skyf12k.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.005747126437"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "173"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kHNAYsUunVMmuv+AtrGg9NjLTW3jno2wN32SXmqLvKM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 07 Dec 2025 14:14:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"J4zA+J+iXYshJfc2FWkNV7BS7Sxldnk5RwzgsuUaheY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-J4zA+J+iXYshJfc2FWkNV7BS7Sxldnk5RwzgsuUaheY="
+        }
+      ]
+    },
+    {
+      "Route": "users.html",
+      "AssetFile": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\wwwroot\\users.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "215"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J4zA+J+iXYshJfc2FWkNV7BS7Sxldnk5RwzgsuUaheY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 07 Dec 2025 14:14:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-J4zA+J+iXYshJfc2FWkNV7BS7Sxldnk5RwzgsuUaheY="
+        }
+      ]
+    },
+    {
+      "Route": "users.html.gz",
+      "AssetFile": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\ounqjg8aod-zd3skyf12k.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "173"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kHNAYsUunVMmuv+AtrGg9NjLTW3jno2wN32SXmqLvKM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 07 Dec 2025 14:14:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kHNAYsUunVMmuv+AtrGg9NjLTW3jno2wN32SXmqLvKM="
+        }
+      ]
+    },
+    {
+      "Route": "users.zd3skyf12k.html",
+      "AssetFile": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\ounqjg8aod-zd3skyf12k.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.005747126437"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "173"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kHNAYsUunVMmuv+AtrGg9NjLTW3jno2wN32SXmqLvKM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 07 Dec 2025 14:14:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"J4zA+J+iXYshJfc2FWkNV7BS7Sxldnk5RwzgsuUaheY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zd3skyf12k"
+        },
+        {
+          "Name": "label",
+          "Value": "users.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-J4zA+J+iXYshJfc2FWkNV7BS7Sxldnk5RwzgsuUaheY="
+        }
+      ]
+    },
+    {
+      "Route": "users.zd3skyf12k.html",
+      "AssetFile": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\wwwroot\\users.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "215"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J4zA+J+iXYshJfc2FWkNV7BS7Sxldnk5RwzgsuUaheY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 07 Dec 2025 14:14:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zd3skyf12k"
+        },
+        {
+          "Name": "label",
+          "Value": "users.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-J4zA+J+iXYshJfc2FWkNV7BS7Sxldnk5RwzgsuUaheY="
+        }
+      ]
+    },
+    {
+      "Route": "users.zd3skyf12k.html.gz",
+      "AssetFile": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\ounqjg8aod-zd3skyf12k.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "173"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kHNAYsUunVMmuv+AtrGg9NjLTW3jno2wN32SXmqLvKM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 07 Dec 2025 14:14:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zd3skyf12k"
+        },
+        {
+          "Name": "label",
+          "Value": "users.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kHNAYsUunVMmuv+AtrGg9NjLTW3jno2wN32SXmqLvKM="
         }
       ]
     }

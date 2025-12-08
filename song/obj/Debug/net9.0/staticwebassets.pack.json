@@ -1,16 +1,20 @@
 {
   "Files": [
     {
-      "Id": "D:\\זילברברג-אחרוןןןןןן\\song\\wwwroot\\css\\site.css",
+      "Id": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\זילברברג-אחרוןןןןןן\\song\\wwwroot\\index.html",
+      "Id": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "D:\\זילברברג-אחרוןןןןןן\\song\\wwwroot\\js\\site.js",
+      "Id": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\wwwroot\\users.html",
+      "PackagePath": "staticwebassets\\users.html"
     },
     {
       "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.song.props",

@@ -243,23 +243,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {},
+    "C:\\Users\\huser\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\זילברברג-אחרוןןןןןן\\song\\song.csproj",
+      "projectUniqueName": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\song.csproj",
       "projectName": "song",
-      "projectPath": "D:\\זילברברג-אחרוןןןןןן\\song\\song.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "D:\\זילברברג-אחרוןןןןןן\\song\\obj\\",
+      "projectPath": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\song.csproj",
+      "packagesPath": "C:\\Users\\huser\\.nuget\\packages\\",
+      "outputPath": "Z:\\יד תשפו\\גולדברג יעל\\זילברברג\\git\\webApi\\song\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\huser\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

@@ -110,3 +110,45 @@ D:\זילברברג-אחרוןןןןןן\song\bin\Debug\net9.0\song.staticwebass
 D:\זילברברג-אחרוןןןןןן\song\obj\Debug\net9.0\compressed\dgehnki1ck-zoxlk5se5i.gz
 D:\זילברברג-אחרוןןןןןן\song\obj\Debug\net9.0\compressed\kim2pfhg89-e8e5locdtf.gz
 D:\זילברברג-אחרוןןןןןן\song\obj\Debug\net9.0\compressed\9xkk9l311w-dh8h8707us.gz
+Z:\יד תשפו\גולדברג יעל\זילברברג\git\webApi\song\obj\Debug\net9.0\song.csproj.AssemblyReference.cache
+Z:\יד תשפו\גולדברג יעל\זילברברג\git\webApi\song\obj\Debug\net9.0\song.GeneratedMSBuildEditorConfig.editorconfig
+Z:\יד תשפו\גולדברג יעל\זילברברג\git\webApi\song\obj\Debug\net9.0\song.AssemblyInfoInputs.cache
+Z:\יד תשפו\גולדברג יעל\זילברברג\git\webApi\song\obj\Debug\net9.0\song.AssemblyInfo.cs
+Z:\יד תשפו\גולדברג יעל\זילברברג\git\webApi\song\obj\Debug\net9.0\song.csproj.CoreCompileInputs.cache
+Z:\יד תשפו\גולדברג יעל\זילברברג\git\webApi\song\obj\Debug\net9.0\song.MvcApplicationPartsAssemblyInfo.cs
+Z:\יד תשפו\גולדברג יעל\זילברברג\git\webApi\song\obj\Debug\net9.0\song.MvcApplicationPartsAssemblyInfo.cache
+Z:\יד תשפו\גולדברג יעל\זילברברג\git\webApi\song\obj\Debug\net9.0\song.sourcelink.json
+Z:\יד תשפו\גולדברג יעל\זילברברג\git\webApi\song\obj\Debug\net9.0\song.dll
+Z:\יד תשפו\גולדברג יעל\זילברברג\git\webApi\song\obj\Debug\net9.0\refint\song.dll
+Z:\יד תשפו\גולדברג יעל\זילברברג\git\webApi\song\obj\Debug\net9.0\song.pdb
+Z:\יד תשפו\גולדברג יעל\זילברברג\git\webApi\song\bin\Debug\net9.0\appsettings.Development.json
+Z:\יד תשפו\גולדברג יעל\זילברברג\git\webApi\song\bin\Debug\net9.0\appsettings.json
+Z:\יד תשפו\גולדברג יעל\זילברברג\git\webApi\song\bin\Debug\net9.0\song.staticwebassets.runtime.json
+Z:\יד תשפו\גולדברג יעל\זילברברג\git\webApi\song\bin\Debug\net9.0\song.staticwebassets.endpoints.json
+Z:\יד תשפו\גולדברג יעל\זילברברג\git\webApi\song\bin\Debug\net9.0\song.exe
+Z:\יד תשפו\גולדברג יעל\זילברברג\git\webApi\song\bin\Debug\net9.0\song.deps.json
+Z:\יד תשפו\גולדברג יעל\זילברברג\git\webApi\song\bin\Debug\net9.0\song.runtimeconfig.json
+Z:\יד תשפו\גולדברג יעל\זילברברג\git\webApi\song\bin\Debug\net9.0\song.dll
+Z:\יד תשפו\גולדברג יעל\זילברברג\git\webApi\song\bin\Debug\net9.0\song.pdb
+Z:\יד תשפו\גולדברג יעל\זילברברג\git\webApi\song\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
+Z:\יד תשפו\גולדברג יעל\זילברברג\git\webApi\song\bin\Debug\net9.0\Microsoft.OpenApi.dll
+Z:\יד תשפו\גולדברג יעל\זילברברג\git\webApi\song\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+Z:\יד תשפו\גולדברג יעל\זילברברג\git\webApi\song\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+Z:\יד תשפו\גולדברג יעל\זילברברג\git\webApi\song\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+Z:\יד תשפו\גולדברג יעל\זילברברג\git\webApi\song\obj\Debug\net9.0\scopedcss\bundle\song.styles.css
+Z:\יד תשפו\גולדברג יעל\זילברברג\git\webApi\song\obj\Debug\net9.0\compressed\dgehnki1ck-zoxlk5se5i.gz
+Z:\יד תשפו\גולדברג יעל\זילברברג\git\webApi\song\obj\Debug\net9.0\compressed\kim2pfhg89-e8e5locdtf.gz
+Z:\יד תשפו\גולדברג יעל\זילברברג\git\webApi\song\obj\Debug\net9.0\compressed\9xkk9l311w-dh8h8707us.gz
+Z:\יד תשפו\גולדברג יעל\זילברברג\git\webApi\song\obj\Debug\net9.0\compressed\ounqjg8aod-zd3skyf12k.gz
+Z:\יד תשפו\גולדברג יעל\זילברברג\git\webApi\song\obj\Debug\net9.0\staticwebassets.build.json
+Z:\יד תשפו\גולדברג יעל\זילברברג\git\webApi\song\obj\Debug\net9.0\staticwebassets.development.json
+Z:\יד תשפו\גולדברג יעל\זילברברג\git\webApi\song\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+Z:\יד תשפו\גולדברג יעל\זילברברג\git\webApi\song\obj\Debug\net9.0\staticwebassets\msbuild.song.Microsoft.AspNetCore.StaticWebAssets.props
+Z:\יד תשפו\גולדברג יעל\זילברברג\git\webApi\song\obj\Debug\net9.0\staticwebassets\msbuild.song.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+Z:\יד תשפו\גולדברג יעל\זילברברג\git\webApi\song\obj\Debug\net9.0\staticwebassets\msbuild.build.song.props
+Z:\יד תשפו\גולדברג יעל\זילברברג\git\webApi\song\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.song.props
+Z:\יד תשפו\גולדברג יעל\זילברברג\git\webApi\song\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.song.props
+Z:\יד תשפו\גולדברג יעל\זילברברג\git\webApi\song\obj\Debug\net9.0\staticwebassets.pack.json
+Z:\יד תשפו\גולדברג יעל\זילברברג\git\webApi\song\obj\Debug\net9.0\song.csproj.Up2Date
+Z:\יד תשפו\גולדברג יעל\זילברברג\git\webApi\song\obj\Debug\net9.0\song.genruntimeconfig.cache
+Z:\יד תשפו\גולדברג יעל\זילברברג\git\webApi\song\obj\Debug\net9.0\ref\song.dll
