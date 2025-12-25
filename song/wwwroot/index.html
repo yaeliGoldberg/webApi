@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music CRUD</title>
+    <link rel="stylesheet" href="./css/site.css">
+    <style>
+        #editForm { display: none; margin-top: 20px; }
+        table, th, td { border: 1px solid black; border-collapse: collapse; padding: 8px; }
+        th { background-color: #eee; }
+    </style>
+</head>
+<body>
+
+    <h1>Music CRUD</h1>
+
+    <h3>Add New Song</h3>
+    <form onsubmit="addItem(); return false;">
+        <input type="text" id="add-name" placeholder="Song name" required>
+        <input type="text" id="add-singer" placeholder="Singer" required>
+        <input type="submit" value="Add">
+    </form>
+
+    <div id="editForm">
+        <h3>Edit Song</h3>
+        <form onsubmit="updateItem(); return false;">
+            <input type="hidden" id="edit-id">
+            <input type="text" id="edit-name" placeholder="Song name" required>
+            <input type="text" id="edit-singer" placeholder="Singer" required>
+            <input type="submit" value="Save">
+            <button type="button" onclick="closeInput()">Cancel</button>
+        </form>
+    </div>
+
+    <p id="counter"></p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Singer</th>
+                <th>Edit</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody id="musics"></tbody>
+    </table>
+ 
+   <button onclick="location.href='users.html'">
+  Go to Users Page
+</button>
+    <script src="./js/site.js"></script>
+</body>
+</html>

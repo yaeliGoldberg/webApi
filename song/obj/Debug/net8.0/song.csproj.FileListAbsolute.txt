@@ -1,0 +1,15 @@
+D:\ש.ב\זילברברג\song\obj\Debug\net8.0\song.csproj.AssemblyReference.cache
+D:\ש.ב\זילברברג\song\obj\Debug\net8.0\song.GeneratedMSBuildEditorConfig.editorconfig
+D:\ש.ב\זילברברג\song\obj\Debug\net8.0\song.AssemblyInfoInputs.cache
+D:\ש.ב\זילברברג\song\obj\Debug\net8.0\song.AssemblyInfo.cs
+D:\ש.ב\זילברברג\song\obj\Debug\net8.0\song.csproj.CoreCompileInputs.cache
+D:\ש.ב\זילברברג\song\obj\Debug\net8.0\song.MvcApplicationPartsAssemblyInfo.cs
+D:\ש.ב\זילברברג\song\obj\Debug\net8.0\song.MvcApplicationPartsAssemblyInfo.cache
+Z:\יד תשפו\גולדברג יעל\זילברברג\git\webApi\song\obj\Debug\net8.0\song.csproj.AssemblyReference.cache
+Z:\יד תשפו\גולדברג יעל\זילברברג\git\webApi\song\obj\Debug\net8.0\song.GeneratedMSBuildEditorConfig.editorconfig
+Z:\יד תשפו\גולדברג יעל\זילברברג\git\webApi\song\obj\Debug\net8.0\song.AssemblyInfoInputs.cache
+Z:\יד תשפו\גולדברג יעל\זילברברג\git\webApi\song\obj\Debug\net8.0\song.AssemblyInfo.cs
+Z:\יד תשפו\גולדברג יעל\זילברברג\git\webApi\song\obj\Debug\net8.0\song.csproj.CoreCompileInputs.cache
+Z:\יד תשפו\גולדברג יעל\זילברברג\git\webApi\song\obj\Debug\net8.0\song.MvcApplicationPartsAssemblyInfo.cs
+Z:\יד תשפו\גולדברג יעל\זילברברג\git\webApi\song\obj\Debug\net8.0\song.MvcApplicationPartsAssemblyInfo.cache
+Z:\יד תשפו\גולדברג יעל\זילברברג\git\webApi\song\obj\Debug\net8.0\song.sourcelink.json

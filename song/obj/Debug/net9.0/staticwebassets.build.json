@@ -1,0 +1,2402 @@
+{
+  "Version": 1,
+  "Hash": "cwy4GxXgZasTbO7BBRoKvSbEzzX66au3RBoGZiwnfbU=",
+  "Source": "song",
+  "BasePath": "_content/song",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "song\\wwwroot",
+      "Source": "song",
+      "ContentRoot": "D:\\בב\\git\\webApi\\song\\wwwroot\\",
+      "BasePath": "_content/song",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\בב\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\9d5m5yalgr-k52n066r6c.gz",
+      "SourceId": "song",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\בב\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/song",
+      "RelativePath": "js/login#[.{fingerprint=k52n066r6c}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\בב\\git\\webApi\\song\\wwwroot\\js\\login.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "7dga661x7d",
+      "Integrity": "W18hs1u9PH8w9IF7VrW1y2rgrcMXs/lIZ6vBXqw/VDM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\בב\\git\\webApi\\song\\wwwroot\\js\\login.js"
+    },
+    {
+      "Identity": "D:\\בב\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\9xkk9l311w-1a29ly9su0.gz",
+      "SourceId": "song",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\בב\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/song",
+      "RelativePath": "js/site#[.{fingerprint=1a29ly9su0}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\בב\\git\\webApi\\song\\wwwroot\\js\\site.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "plt37ptz9h",
+      "Integrity": "Y0ybX3crkyu64PumgY/y8/9n+C0Ys5/bQzFdR4cLfjI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\בב\\git\\webApi\\song\\wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "D:\\בב\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\ddsw5v31av-sb9ztca74s.gz",
+      "SourceId": "song",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\בב\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/song",
+      "RelativePath": "js/user#[.{fingerprint=sb9ztca74s}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\בב\\git\\webApi\\song\\wwwroot\\js\\user.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "sx0ac0wcv0",
+      "Integrity": "QK/G97MtCa987SMGnyvJCv9XsKuCLDtA8R+ZPNtN7mM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\בב\\git\\webApi\\song\\wwwroot\\js\\user.js"
+    },
+    {
+      "Identity": "D:\\בב\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\dgehnki1ck-zoxlk5se5i.gz",
+      "SourceId": "song",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\בב\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/song",
+      "RelativePath": "css/site#[.{fingerprint=zoxlk5se5i}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\בב\\git\\webApi\\song\\wwwroot\\css\\site.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "6iwh808co5",
+      "Integrity": "MrkGjfJbtiTQKCqzljej72Njbw6vWKiTb/Xs3LUMWco=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\בב\\git\\webApi\\song\\wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "D:\\בב\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\j3mihkx1a3-dalrmar50q.gz",
+      "SourceId": "song",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\בב\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/song",
+      "RelativePath": "login#[.{fingerprint=dalrmar50q}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\בב\\git\\webApi\\song\\wwwroot\\login.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "3ppt64cb0u",
+      "Integrity": "V/2ShHfchHhjv7cJgpR3oPJZF8Tq+yoF9b1+nowfdQ0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\בב\\git\\webApi\\song\\wwwroot\\login.html"
+    },
+    {
+      "Identity": "D:\\בב\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\kim2pfhg89-d5rrubykht.gz",
+      "SourceId": "song",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\בב\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/song",
+      "RelativePath": "index#[.{fingerprint=d5rrubykht}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\בב\\git\\webApi\\song\\wwwroot\\index.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "61sfltd0vz",
+      "Integrity": "VivHSnc+9LbVowwv2BT/FfGFn0qWlj5TlVBcqTJPyrQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\בב\\git\\webApi\\song\\wwwroot\\index.html"
+    },
+    {
+      "Identity": "D:\\בב\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\ounqjg8aod-hgglb2zquf.gz",
+      "SourceId": "song",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\בב\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/song",
+      "RelativePath": "users#[.{fingerprint=hgglb2zquf}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\בב\\git\\webApi\\song\\wwwroot\\users.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "3k57xb6j82",
+      "Integrity": "4wSx0qzXSB4nEz+FAD8dLTe3j7COB/26uNIwbeL+cUw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\בב\\git\\webApi\\song\\wwwroot\\users.html"
+    },
+    {
+      "Identity": "D:\\בב\\git\\webApi\\song\\wwwroot\\css\\site.css",
+      "SourceId": "song",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\בב\\git\\webApi\\song\\wwwroot\\",
+      "BasePath": "_content/song",
+      "RelativePath": "css/site#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zoxlk5se5i",
+      "Integrity": "06WPOIW5/mIO+16lWWyaJd8OL4taYJX8l7d24pTFPC4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "D:\\בב\\git\\webApi\\song\\wwwroot\\index.html",
+      "SourceId": "song",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\בב\\git\\webApi\\song\\wwwroot\\",
+      "BasePath": "_content/song",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "d5rrubykht",
+      "Integrity": "Mcz7ze2QHospz5p7FFJ3k3Dw3SI81yHnpUBwL+CTdfs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "D:\\בב\\git\\webApi\\song\\wwwroot\\js\\login.js",
+      "SourceId": "song",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\בב\\git\\webApi\\song\\wwwroot\\",
+      "BasePath": "_content/song",
+      "RelativePath": "js/login#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "k52n066r6c",
+      "Integrity": "qGIRTc4evUISZBw/jELlZYR8H1a6x7iEWaekw97MW4M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\login.js"
+    },
+    {
+      "Identity": "D:\\בב\\git\\webApi\\song\\wwwroot\\js\\site.js",
+      "SourceId": "song",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\בב\\git\\webApi\\song\\wwwroot\\",
+      "BasePath": "_content/song",
+      "RelativePath": "js/site#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1a29ly9su0",
+      "Integrity": "yQAfGknA49Yh6v8KDeea3XsjWItnc/d99ysw1b+GKwo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "D:\\בב\\git\\webApi\\song\\wwwroot\\js\\user.js",
+      "SourceId": "song",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\בב\\git\\webApi\\song\\wwwroot\\",
+      "BasePath": "_content/song",
+      "RelativePath": "js/user#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "sb9ztca74s",
+      "Integrity": "CJlBsTn7Xv7zyj8K4YwzRv+xFK1HtZpB/291Hi7ZRJI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\user.js"
+    },
+    {
+      "Identity": "D:\\בב\\git\\webApi\\song\\wwwroot\\login.html",
+      "SourceId": "song",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\בב\\git\\webApi\\song\\wwwroot\\",
+      "BasePath": "_content/song",
+      "RelativePath": "login#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dalrmar50q",
+      "Integrity": "hdIHHfyF2ldvH+7HUmFBVDUVkt50nu7n/QjO0vKhZoc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\login.html"
+    },
+    {
+      "Identity": "D:\\בב\\git\\webApi\\song\\wwwroot\\users.html",
+      "SourceId": "song",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\בב\\git\\webApi\\song\\wwwroot\\",
+      "BasePath": "_content/song",
+      "RelativePath": "users#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hgglb2zquf",
+      "Integrity": "kSnaIYB+y+gBcZAH+ByUEWyk+vcl7MdV5Siun8IyfEY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\users.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/site.css",
+      "AssetFile": "D:\\בב\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\dgehnki1ck-zoxlk5se5i.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.004651162791"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "214"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MrkGjfJbtiTQKCqzljej72Njbw6vWKiTb/Xs3LUMWco=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 07 Dec 2025 13:52:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"06WPOIW5/mIO+16lWWyaJd8OL4taYJX8l7d24pTFPC4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-06WPOIW5/mIO+16lWWyaJd8OL4taYJX8l7d24pTFPC4="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "D:\\בב\\git\\webApi\\song\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "332"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"06WPOIW5/mIO+16lWWyaJd8OL4taYJX8l7d24pTFPC4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 07 Dec 2025 13:52:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-06WPOIW5/mIO+16lWWyaJd8OL4taYJX8l7d24pTFPC4="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css.gz",
+      "AssetFile": "D:\\בב\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\dgehnki1ck-zoxlk5se5i.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "214"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MrkGjfJbtiTQKCqzljej72Njbw6vWKiTb/Xs3LUMWco=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 07 Dec 2025 13:52:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MrkGjfJbtiTQKCqzljej72Njbw6vWKiTb/Xs3LUMWco="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.zoxlk5se5i.css",
+      "AssetFile": "D:\\בב\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\dgehnki1ck-zoxlk5se5i.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.004651162791"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "214"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MrkGjfJbtiTQKCqzljej72Njbw6vWKiTb/Xs3LUMWco=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 07 Dec 2025 13:52:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"06WPOIW5/mIO+16lWWyaJd8OL4taYJX8l7d24pTFPC4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zoxlk5se5i"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-06WPOIW5/mIO+16lWWyaJd8OL4taYJX8l7d24pTFPC4="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.zoxlk5se5i.css",
+      "AssetFile": "D:\\בב\\git\\webApi\\song\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "332"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"06WPOIW5/mIO+16lWWyaJd8OL4taYJX8l7d24pTFPC4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 07 Dec 2025 13:52:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zoxlk5se5i"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-06WPOIW5/mIO+16lWWyaJd8OL4taYJX8l7d24pTFPC4="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.zoxlk5se5i.css.gz",
+      "AssetFile": "D:\\בב\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\dgehnki1ck-zoxlk5se5i.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "214"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MrkGjfJbtiTQKCqzljej72Njbw6vWKiTb/Xs3LUMWco=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 07 Dec 2025 13:52:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zoxlk5se5i"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MrkGjfJbtiTQKCqzljej72Njbw6vWKiTb/Xs3LUMWco="
+        }
+      ]
+    },
+    {
+      "Route": "index.d5rrubykht.html",
+      "AssetFile": "D:\\בב\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\kim2pfhg89-d5rrubykht.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001455604076"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "686"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VivHSnc+9LbVowwv2BT/FfGFn0qWlj5TlVBcqTJPyrQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 09 Dec 2025 16:59:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Mcz7ze2QHospz5p7FFJ3k3Dw3SI81yHnpUBwL+CTdfs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d5rrubykht"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Mcz7ze2QHospz5p7FFJ3k3Dw3SI81yHnpUBwL+CTdfs="
+        }
+      ]
+    },
+    {
+      "Route": "index.d5rrubykht.html",
+      "AssetFile": "D:\\בב\\git\\webApi\\song\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1679"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Mcz7ze2QHospz5p7FFJ3k3Dw3SI81yHnpUBwL+CTdfs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 09 Dec 2025 16:59:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d5rrubykht"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Mcz7ze2QHospz5p7FFJ3k3Dw3SI81yHnpUBwL+CTdfs="
+        }
+      ]
+    },
+    {
+      "Route": "index.d5rrubykht.html.gz",
+      "AssetFile": "D:\\בב\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\kim2pfhg89-d5rrubykht.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "686"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VivHSnc+9LbVowwv2BT/FfGFn0qWlj5TlVBcqTJPyrQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 09 Dec 2025 16:59:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d5rrubykht"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VivHSnc+9LbVowwv2BT/FfGFn0qWlj5TlVBcqTJPyrQ="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "D:\\בב\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\kim2pfhg89-d5rrubykht.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001455604076"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "686"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VivHSnc+9LbVowwv2BT/FfGFn0qWlj5TlVBcqTJPyrQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 09 Dec 2025 16:59:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Mcz7ze2QHospz5p7FFJ3k3Dw3SI81yHnpUBwL+CTdfs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Mcz7ze2QHospz5p7FFJ3k3Dw3SI81yHnpUBwL+CTdfs="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "D:\\בב\\git\\webApi\\song\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1679"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Mcz7ze2QHospz5p7FFJ3k3Dw3SI81yHnpUBwL+CTdfs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 09 Dec 2025 16:59:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Mcz7ze2QHospz5p7FFJ3k3Dw3SI81yHnpUBwL+CTdfs="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "D:\\בב\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\kim2pfhg89-d5rrubykht.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "686"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VivHSnc+9LbVowwv2BT/FfGFn0qWlj5TlVBcqTJPyrQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 09 Dec 2025 16:59:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VivHSnc+9LbVowwv2BT/FfGFn0qWlj5TlVBcqTJPyrQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/login.js",
+      "AssetFile": "D:\\בב\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\9d5m5yalgr-k52n066r6c.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002169197397"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "460"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"W18hs1u9PH8w9IF7VrW1y2rgrcMXs/lIZ6vBXqw/VDM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 25 Dec 2025 19:27:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"qGIRTc4evUISZBw/jELlZYR8H1a6x7iEWaekw97MW4M=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qGIRTc4evUISZBw/jELlZYR8H1a6x7iEWaekw97MW4M="
+        }
+      ]
+    },
+    {
+      "Route": "js/login.js",
+      "AssetFile": "D:\\בב\\git\\webApi\\song\\wwwroot\\js\\login.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "770"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qGIRTc4evUISZBw/jELlZYR8H1a6x7iEWaekw97MW4M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 25 Dec 2025 19:27:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qGIRTc4evUISZBw/jELlZYR8H1a6x7iEWaekw97MW4M="
+        }
+      ]
+    },
+    {
+      "Route": "js/login.js.gz",
+      "AssetFile": "D:\\בב\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\9d5m5yalgr-k52n066r6c.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "460"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"W18hs1u9PH8w9IF7VrW1y2rgrcMXs/lIZ6vBXqw/VDM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 25 Dec 2025 19:27:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-W18hs1u9PH8w9IF7VrW1y2rgrcMXs/lIZ6vBXqw/VDM="
+        }
+      ]
+    },
+    {
+      "Route": "js/login.k52n066r6c.js",
+      "AssetFile": "D:\\בב\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\9d5m5yalgr-k52n066r6c.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002169197397"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "460"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"W18hs1u9PH8w9IF7VrW1y2rgrcMXs/lIZ6vBXqw/VDM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 25 Dec 2025 19:27:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"qGIRTc4evUISZBw/jELlZYR8H1a6x7iEWaekw97MW4M=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "k52n066r6c"
+        },
+        {
+          "Name": "label",
+          "Value": "js/login.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qGIRTc4evUISZBw/jELlZYR8H1a6x7iEWaekw97MW4M="
+        }
+      ]
+    },
+    {
+      "Route": "js/login.k52n066r6c.js",
+      "AssetFile": "D:\\בב\\git\\webApi\\song\\wwwroot\\js\\login.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "770"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qGIRTc4evUISZBw/jELlZYR8H1a6x7iEWaekw97MW4M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 25 Dec 2025 19:27:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "k52n066r6c"
+        },
+        {
+          "Name": "label",
+          "Value": "js/login.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qGIRTc4evUISZBw/jELlZYR8H1a6x7iEWaekw97MW4M="
+        }
+      ]
+    },
+    {
+      "Route": "js/login.k52n066r6c.js.gz",
+      "AssetFile": "D:\\בב\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\9d5m5yalgr-k52n066r6c.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "460"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"W18hs1u9PH8w9IF7VrW1y2rgrcMXs/lIZ6vBXqw/VDM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 25 Dec 2025 19:27:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "k52n066r6c"
+        },
+        {
+          "Name": "label",
+          "Value": "js/login.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-W18hs1u9PH8w9IF7VrW1y2rgrcMXs/lIZ6vBXqw/VDM="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.1a29ly9su0.js",
+      "AssetFile": "D:\\בב\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\9xkk9l311w-1a29ly9su0.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000703234880"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1421"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y0ybX3crkyu64PumgY/y8/9n+C0Ys5/bQzFdR4cLfjI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 09 Dec 2025 16:59:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"yQAfGknA49Yh6v8KDeea3XsjWItnc/d99ysw1b+GKwo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1a29ly9su0"
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yQAfGknA49Yh6v8KDeea3XsjWItnc/d99ysw1b+GKwo="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.1a29ly9su0.js",
+      "AssetFile": "D:\\בב\\git\\webApi\\song\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7107"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yQAfGknA49Yh6v8KDeea3XsjWItnc/d99ysw1b+GKwo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 09 Dec 2025 16:59:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1a29ly9su0"
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yQAfGknA49Yh6v8KDeea3XsjWItnc/d99ysw1b+GKwo="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.1a29ly9su0.js.gz",
+      "AssetFile": "D:\\בב\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\9xkk9l311w-1a29ly9su0.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1421"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y0ybX3crkyu64PumgY/y8/9n+C0Ys5/bQzFdR4cLfjI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 09 Dec 2025 16:59:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1a29ly9su0"
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y0ybX3crkyu64PumgY/y8/9n+C0Ys5/bQzFdR4cLfjI="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.js",
+      "AssetFile": "D:\\בב\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\9xkk9l311w-1a29ly9su0.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000703234880"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1421"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y0ybX3crkyu64PumgY/y8/9n+C0Ys5/bQzFdR4cLfjI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 09 Dec 2025 16:59:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"yQAfGknA49Yh6v8KDeea3XsjWItnc/d99ysw1b+GKwo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yQAfGknA49Yh6v8KDeea3XsjWItnc/d99ysw1b+GKwo="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.js",
+      "AssetFile": "D:\\בב\\git\\webApi\\song\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7107"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yQAfGknA49Yh6v8KDeea3XsjWItnc/d99ysw1b+GKwo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 09 Dec 2025 16:59:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yQAfGknA49Yh6v8KDeea3XsjWItnc/d99ysw1b+GKwo="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.js.gz",
+      "AssetFile": "D:\\בב\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\9xkk9l311w-1a29ly9su0.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1421"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y0ybX3crkyu64PumgY/y8/9n+C0Ys5/bQzFdR4cLfjI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 09 Dec 2025 16:59:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y0ybX3crkyu64PumgY/y8/9n+C0Ys5/bQzFdR4cLfjI="
+        }
+      ]
+    },
+    {
+      "Route": "js/user.js",
+      "AssetFile": "D:\\בב\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\ddsw5v31av-sb9ztca74s.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001012145749"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "987"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QK/G97MtCa987SMGnyvJCv9XsKuCLDtA8R+ZPNtN7mM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 09 Dec 2025 17:26:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"CJlBsTn7Xv7zyj8K4YwzRv+xFK1HtZpB/291Hi7ZRJI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CJlBsTn7Xv7zyj8K4YwzRv+xFK1HtZpB/291Hi7ZRJI="
+        }
+      ]
+    },
+    {
+      "Route": "js/user.js",
+      "AssetFile": "D:\\בב\\git\\webApi\\song\\wwwroot\\js\\user.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3430"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CJlBsTn7Xv7zyj8K4YwzRv+xFK1HtZpB/291Hi7ZRJI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 09 Dec 2025 17:26:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CJlBsTn7Xv7zyj8K4YwzRv+xFK1HtZpB/291Hi7ZRJI="
+        }
+      ]
+    },
+    {
+      "Route": "js/user.js.gz",
+      "AssetFile": "D:\\בב\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\ddsw5v31av-sb9ztca74s.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "987"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QK/G97MtCa987SMGnyvJCv9XsKuCLDtA8R+ZPNtN7mM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 09 Dec 2025 17:26:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QK/G97MtCa987SMGnyvJCv9XsKuCLDtA8R+ZPNtN7mM="
+        }
+      ]
+    },
+    {
+      "Route": "js/user.sb9ztca74s.js",
+      "AssetFile": "D:\\בב\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\ddsw5v31av-sb9ztca74s.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001012145749"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "987"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QK/G97MtCa987SMGnyvJCv9XsKuCLDtA8R+ZPNtN7mM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 09 Dec 2025 17:26:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"CJlBsTn7Xv7zyj8K4YwzRv+xFK1HtZpB/291Hi7ZRJI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sb9ztca74s"
+        },
+        {
+          "Name": "label",
+          "Value": "js/user.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CJlBsTn7Xv7zyj8K4YwzRv+xFK1HtZpB/291Hi7ZRJI="
+        }
+      ]
+    },
+    {
+      "Route": "js/user.sb9ztca74s.js",
+      "AssetFile": "D:\\בב\\git\\webApi\\song\\wwwroot\\js\\user.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3430"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CJlBsTn7Xv7zyj8K4YwzRv+xFK1HtZpB/291Hi7ZRJI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 09 Dec 2025 17:26:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sb9ztca74s"
+        },
+        {
+          "Name": "label",
+          "Value": "js/user.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CJlBsTn7Xv7zyj8K4YwzRv+xFK1HtZpB/291Hi7ZRJI="
+        }
+      ]
+    },
+    {
+      "Route": "js/user.sb9ztca74s.js.gz",
+      "AssetFile": "D:\\בב\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\ddsw5v31av-sb9ztca74s.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "987"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QK/G97MtCa987SMGnyvJCv9XsKuCLDtA8R+ZPNtN7mM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 09 Dec 2025 17:26:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sb9ztca74s"
+        },
+        {
+          "Name": "label",
+          "Value": "js/user.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QK/G97MtCa987SMGnyvJCv9XsKuCLDtA8R+ZPNtN7mM="
+        }
+      ]
+    },
+    {
+      "Route": "login.dalrmar50q.html",
+      "AssetFile": "D:\\בב\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\j3mihkx1a3-dalrmar50q.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003215434084"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "310"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"V/2ShHfchHhjv7cJgpR3oPJZF8Tq+yoF9b1+nowfdQ0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 25 Dec 2025 17:02:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"hdIHHfyF2ldvH+7HUmFBVDUVkt50nu7n/QjO0vKhZoc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dalrmar50q"
+        },
+        {
+          "Name": "label",
+          "Value": "login.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hdIHHfyF2ldvH+7HUmFBVDUVkt50nu7n/QjO0vKhZoc="
+        }
+      ]
+    },
+    {
+      "Route": "login.dalrmar50q.html",
+      "AssetFile": "D:\\בב\\git\\webApi\\song\\wwwroot\\login.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "478"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hdIHHfyF2ldvH+7HUmFBVDUVkt50nu7n/QjO0vKhZoc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 25 Dec 2025 17:02:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dalrmar50q"
+        },
+        {
+          "Name": "label",
+          "Value": "login.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hdIHHfyF2ldvH+7HUmFBVDUVkt50nu7n/QjO0vKhZoc="
+        }
+      ]
+    },
+    {
+      "Route": "login.dalrmar50q.html.gz",
+      "AssetFile": "D:\\בב\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\j3mihkx1a3-dalrmar50q.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "310"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"V/2ShHfchHhjv7cJgpR3oPJZF8Tq+yoF9b1+nowfdQ0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 25 Dec 2025 17:02:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dalrmar50q"
+        },
+        {
+          "Name": "label",
+          "Value": "login.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-V/2ShHfchHhjv7cJgpR3oPJZF8Tq+yoF9b1+nowfdQ0="
+        }
+      ]
+    },
+    {
+      "Route": "login.html",
+      "AssetFile": "D:\\בב\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\j3mihkx1a3-dalrmar50q.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003215434084"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "310"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"V/2ShHfchHhjv7cJgpR3oPJZF8Tq+yoF9b1+nowfdQ0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 25 Dec 2025 17:02:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"hdIHHfyF2ldvH+7HUmFBVDUVkt50nu7n/QjO0vKhZoc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hdIHHfyF2ldvH+7HUmFBVDUVkt50nu7n/QjO0vKhZoc="
+        }
+      ]
+    },
+    {
+      "Route": "login.html",
+      "AssetFile": "D:\\בב\\git\\webApi\\song\\wwwroot\\login.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "478"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hdIHHfyF2ldvH+7HUmFBVDUVkt50nu7n/QjO0vKhZoc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 25 Dec 2025 17:02:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hdIHHfyF2ldvH+7HUmFBVDUVkt50nu7n/QjO0vKhZoc="
+        }
+      ]
+    },
+    {
+      "Route": "login.html.gz",
+      "AssetFile": "D:\\בב\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\j3mihkx1a3-dalrmar50q.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "310"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"V/2ShHfchHhjv7cJgpR3oPJZF8Tq+yoF9b1+nowfdQ0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 25 Dec 2025 17:02:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-V/2ShHfchHhjv7cJgpR3oPJZF8Tq+yoF9b1+nowfdQ0="
+        }
+      ]
+    },
+    {
+      "Route": "users.hgglb2zquf.html",
+      "AssetFile": "D:\\בב\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\ounqjg8aod-hgglb2zquf.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001422475107"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "702"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4wSx0qzXSB4nEz+FAD8dLTe3j7COB/26uNIwbeL+cUw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 09 Dec 2025 16:59:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"kSnaIYB+y+gBcZAH+ByUEWyk+vcl7MdV5Siun8IyfEY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hgglb2zquf"
+        },
+        {
+          "Name": "label",
+          "Value": "users.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kSnaIYB+y+gBcZAH+ByUEWyk+vcl7MdV5Siun8IyfEY="
+        }
+      ]
+    },
+    {
+      "Route": "users.hgglb2zquf.html",
+      "AssetFile": "D:\\בב\\git\\webApi\\song\\wwwroot\\users.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1809"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kSnaIYB+y+gBcZAH+ByUEWyk+vcl7MdV5Siun8IyfEY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 09 Dec 2025 16:59:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hgglb2zquf"
+        },
+        {
+          "Name": "label",
+          "Value": "users.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kSnaIYB+y+gBcZAH+ByUEWyk+vcl7MdV5Siun8IyfEY="
+        }
+      ]
+    },
+    {
+      "Route": "users.hgglb2zquf.html.gz",
+      "AssetFile": "D:\\בב\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\ounqjg8aod-hgglb2zquf.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "702"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4wSx0qzXSB4nEz+FAD8dLTe3j7COB/26uNIwbeL+cUw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 09 Dec 2025 16:59:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hgglb2zquf"
+        },
+        {
+          "Name": "label",
+          "Value": "users.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4wSx0qzXSB4nEz+FAD8dLTe3j7COB/26uNIwbeL+cUw="
+        }
+      ]
+    },
+    {
+      "Route": "users.html",
+      "AssetFile": "D:\\בב\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\ounqjg8aod-hgglb2zquf.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001422475107"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "702"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4wSx0qzXSB4nEz+FAD8dLTe3j7COB/26uNIwbeL+cUw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 09 Dec 2025 16:59:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"kSnaIYB+y+gBcZAH+ByUEWyk+vcl7MdV5Siun8IyfEY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kSnaIYB+y+gBcZAH+ByUEWyk+vcl7MdV5Siun8IyfEY="
+        }
+      ]
+    },
+    {
+      "Route": "users.html",
+      "AssetFile": "D:\\בב\\git\\webApi\\song\\wwwroot\\users.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1809"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kSnaIYB+y+gBcZAH+ByUEWyk+vcl7MdV5Siun8IyfEY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 09 Dec 2025 16:59:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kSnaIYB+y+gBcZAH+ByUEWyk+vcl7MdV5Siun8IyfEY="
+        }
+      ]
+    },
+    {
+      "Route": "users.html.gz",
+      "AssetFile": "D:\\בב\\git\\webApi\\song\\obj\\Debug\\net9.0\\compressed\\ounqjg8aod-hgglb2zquf.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "702"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4wSx0qzXSB4nEz+FAD8dLTe3j7COB/26uNIwbeL+cUw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 09 Dec 2025 16:59:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4wSx0qzXSB4nEz+FAD8dLTe3j7COB/26uNIwbeL+cUw="
+        }
+      ]
+    }
+  ]
+}
