@@ -9,10 +9,12 @@ using System.Security.Claims;
 using System.Text;
 using Microsoft.AspNetCore.Authorization;
 using Token.Services;
+using Microsoft.AspNetCore.Authorization;
 namespace SONG.Controllers
 {
     [ApiController]
     [Route("[controller]")]
+    [Authorize]
     public class userController : ControllerBase
     {
         Iuser service;
@@ -72,15 +74,15 @@ namespace SONG.Controllers
 
             return Content(service.Count.ToString());
         }
-
-         [HttpPost]
+        [AllowAnonymous]
+        [HttpPost]
         [Route("[action]")]
         public ActionResult<String> Login([FromBody] userType User)
         {
             var claims = new List<Claim>
             {
                 new Claim("username", User.Name),
-                new Claim("userid :", User.Id.ToString()),
+                new Claim("userid", User.Id.ToString()),
                 new Claim("type", "users"),
             };
 

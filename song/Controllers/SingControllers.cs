@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
 using SONG.Models;
 using SONG.Services;
 using SONG.interfaces;
@@ -9,6 +10,7 @@ namespace SONG.Controllers
 {
     [ApiController]
     [Route("[controller]")]
+    [Authorize]
     public class SingController : ControllerBase
     {
         Isong service;

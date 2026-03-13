@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\בב\\git\\webApi\\song\\song.csproj": {}
+    "C:\\Users\\user\\Desktop\\core\\song\\song.csproj": {}
   },
   "projects": {
-    "D:\\בב\\git\\webApi\\song\\song.csproj": {
+    "C:\\Users\\user\\Desktop\\core\\song\\song.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\בב\\git\\webApi\\song\\song.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\core\\song\\song.csproj",
         "projectName": "song",
-        "projectPath": "D:\\בב\\git\\webApi\\song\\song.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\core\\song\\song.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "D:\\בב\\git\\webApi\\song\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\core\\song\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -51,6 +51,10 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[9.0.0, )"
