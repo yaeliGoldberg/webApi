@@ -2,6 +2,11 @@ using SONG.interfaces;
 using SONG.Services;
 using user.interfaces;
 using user.Services;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using Microsoft.AspNetCore.Authorization;
+
+using Token.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,6 +18,14 @@ builder.Services.AddOpenApi();
 
 builder.Services.AddSingleton<Isong, SongService>();
 builder.Services.AddSingleton<Iuser, userService>();
+
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+.AddJwtBearer(options =>
+{
+    options.TokenValidationParameters =
+    TokenService.GetTokenValidationParameters();
+});
+
 
 var app = builder.Build();
 
