@@ -8,6 +8,8 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddControllers();
+builder.Services.AddSignalR(); // <-- הוספת SignalR
+
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 
@@ -33,4 +35,5 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 app.MapGet("/", () => Results.Redirect("/index.html")); 
 app.MapControllers();
+app.MapHub<SONG.Hubs.UserHub>("/userhub"); // <-- מיקום ה-Hub
 app.Run();

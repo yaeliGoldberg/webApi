@@ -9,6 +9,10 @@ using System.Security.Claims;
 using System.Text;
 using Microsoft.AspNetCore.Authorization;
 using Token.Services;
+using SONG.Hubs;
+using Microsoft.AspNetCore.SignalR;
+using SONG;
+
 namespace SONG.Controllers
 {
     [ApiController]
@@ -16,9 +20,12 @@ namespace SONG.Controllers
     public class userController : ControllerBase
     {
         Iuser service;
+        IHubContext<UserHub> hub;
 
-        public userController(Iuser service){
+        public userController(Iuser service, IHubContext<UserHub> hub)
+        {
             this.service=service;
+            this.hub = hub;
         }
         
 
@@ -42,6 +49,7 @@ namespace SONG.Controllers
         public IActionResult Create(userType s)
         {
             service.Add(s);
+            hub.Clients.All.SendAsync("UsersChanged");
             return CreatedAtAction(nameof(Create), new {id=s.Id}, s);
 
         }
@@ -58,6 +66,9 @@ namespace SONG.Controllers
 
             service.Update(s);
 
+            hub.Clients.All.SendAsync("UsersChanged");
+
+
             return NoContent();
         }
 
@@ -69,6 +80,7 @@ namespace SONG.Controllers
                 return  NotFound();
 
             service.Delete(id);
+            hub.Clients.All.SendAsync("UsersChanged");
 
             return Content(service.Count.ToString());
         }

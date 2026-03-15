@@ -15,14 +15,14 @@
 
 
     <script>
-        
+
         const token = localStorage.getItem("token");
         console.log("token:", token);
         console.log("path:", window.location.pathname);
 
         if (token == null) {
             window.location.href = "login.html";
-       }      
+        }
     </script>
 
 
@@ -64,6 +64,7 @@
     <button onclick="location.href='users.html'">
         Go to Users Page
     </button>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/7.0.5/signalr.min.js"></script>
     <script src="./js/site.js"></script>
 </body>
 </html>

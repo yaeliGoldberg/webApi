@@ -1,4 +1,17 @@
 console.log("site.js loaded!");
+// SignalR connection
+const connection = new signalR.HubConnectionBuilder()
+    .withUrl("/userhub")
+    .build();
+
+connection.on("UsersChanged", function () {
+    console.log("SignalR update received");
+    getItems(); // מרענן את הרשימה
+});
+
+connection.start()
+    .then(() => console.log("SignalR connected"))
+    .catch(err => console.error(err));
 const uri = '/Sing';
 let music = [];
 
