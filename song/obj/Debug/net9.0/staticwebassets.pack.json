@@ -1,31 +1,31 @@
 {
   "Files": [
     {
-      "Id": "D:\\בב\\git\\webApi\\song\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\user\\Desktop\\webAbi-new\\webApi\\song\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\בב\\git\\webApi\\song\\wwwroot\\index.html",
+      "Id": "C:\\Users\\user\\Desktop\\webAbi-new\\webApi\\song\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "D:\\בב\\git\\webApi\\song\\wwwroot\\js\\login.js",
+      "Id": "C:\\Users\\user\\Desktop\\webAbi-new\\webApi\\song\\wwwroot\\js\\login.js",
       "PackagePath": "staticwebassets\\js\\login.js"
     },
     {
-      "Id": "D:\\בב\\git\\webApi\\song\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\user\\Desktop\\webAbi-new\\webApi\\song\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "D:\\בב\\git\\webApi\\song\\wwwroot\\js\\user.js",
+      "Id": "C:\\Users\\user\\Desktop\\webAbi-new\\webApi\\song\\wwwroot\\js\\user.js",
       "PackagePath": "staticwebassets\\js\\user.js"
     },
     {
-      "Id": "D:\\בב\\git\\webApi\\song\\wwwroot\\login.html",
+      "Id": "C:\\Users\\user\\Desktop\\webAbi-new\\webApi\\song\\wwwroot\\login.html",
       "PackagePath": "staticwebassets\\login.html"
     },
     {
-      "Id": "D:\\בב\\git\\webApi\\song\\wwwroot\\users.html",
+      "Id": "C:\\Users\\user\\Desktop\\webAbi-new\\webApi\\song\\wwwroot\\users.html",
       "PackagePath": "staticwebassets\\users.html"
     },
     {

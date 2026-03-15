@@ -31,7 +31,6 @@ app.UseStaticFiles();
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
-app.MapGet("/", () => Results.Redirect("/login.html")); 
+app.MapGet("/", () => Results.Redirect("/index.html")); 
 app.MapControllers();
-
 app.Run();

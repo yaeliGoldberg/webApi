@@ -3,7 +3,7 @@ function login() {
     const id = document.getElementById("userid").value;
   
 
-    fetch('http://localhost:5242/user/Login', {
+    fetch('http://localhost:7154/user/Login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ Name: name, Id: id })
@@ -17,8 +17,4 @@ function login() {
     .catch(err => alert("Login failed: " + err));
 }
 
-// בדיקה אם יש טוקן בכל דף אחר
-if(!localStorage.getItem("token")){
-    window.location.href = "login.html";
-}
 
