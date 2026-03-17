@@ -3,10 +3,10 @@ using SONG.Services;
 using user.interfaces;
 using user.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Token.Services;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.AspNetCore.Authorization;
-
-using Token.Services;
+using Microsoft.OpenApi;
 
 var builder = WebApplication.CreateBuilder(args);
 
