@@ -250,5 +250,5 @@ function _displayItems(data) {
     music = data;
 }
 
-getItems();
+//getItems();
 

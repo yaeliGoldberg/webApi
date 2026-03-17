@@ -84,6 +84,7 @@ namespace SONG.Controllers
     {
         new Claim("username", user.Name),
         new Claim("userid", user.Id.ToString()),
+        new Claim("role", user.Role),
         new Claim("type", "users")
     };
 
