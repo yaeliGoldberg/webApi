@@ -28,6 +28,17 @@
 
 <body>
 
+     <script>
+        
+        const token = localStorage.getItem("token");
+        console.log("token:", token);
+        console.log("path:", window.location.pathname);
+
+        if (token == null) {
+            window.location.href = "login.html";
+       }      
+    </script>
+
     <h1>USER CRUD</h1>
 
     <h3>Add New User</h3>

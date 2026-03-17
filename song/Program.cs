@@ -2,6 +2,11 @@ using SONG.interfaces;
 using SONG.Services;
 using user.interfaces;
 using user.Services;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Token.Services;
+using Microsoft.IdentityModel.Tokens;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.OpenApi;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,6 +18,19 @@ builder.Services.AddOpenApi();
 
 builder.Services.AddSingleton<Isong, SongService>();
 builder.Services.AddSingleton<Iuser, userService>();
+
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+.AddJwtBearer(options =>
+{
+    options.TokenValidationParameters =
+    TokenService.GetTokenValidationParameters();
+});
+
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("AdminOnly", policy =>
+        policy.RequireClaim("role", "admin"));
+});
 
 var app = builder.Build();
 
@@ -29,7 +47,7 @@ if (app.Environment.IsDevelopment())
 app.UseDefaultFiles();
 app.UseStaticFiles();
 app.UseHttpsRedirection();
-
+app.UseAuthentication();
 app.UseAuthorization();
 app.MapGet("/", () => Results.Redirect("/index.html")); 
 app.MapControllers();

@@ -13,11 +13,12 @@ namespace SONG.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class userController : ControllerBase
+    [Authorize]
+    public class UserController : ControllerBase
     {
         Iuser service;
 
-        public userController(Iuser service){
+        public UserController(Iuser service){
             this.service=service;
         }
         
@@ -72,23 +73,27 @@ namespace SONG.Controllers
 
             return Content(service.Count.ToString());
         }
+       
 
-         [HttpPost]
-        [Route("[action]")]
-        public ActionResult<String> Login([FromBody] userType User)
+        [HttpPost("Login")]
+        [AllowAnonymous]
+   public ActionResult<string> Login([FromBody] userType user)
         {
+            // יוצרים את ה-Claims על בסיס המשתמש שהתקבל
             var claims = new List<Claim>
-            {
-                new Claim("username", User.Name),
-                new Claim("userid :", User.Id.ToString()),
-                new Claim("type", "users"),
-            };
+    {
+        new Claim("username", user.Name),
+        new Claim("userid", user.Id.ToString()),
+        new Claim("role", user.Role),
+        new Claim("type", "users")
+    };
 
+            // יוצרים את הטוקן בעזרת TokenService
             var token = TokenService.GetToken(claims);
 
-           // return new OkObjectResult(TokenService.WriteToken(token));
+            // מחזירים JSON עם הטוקן
             return Ok(new { token = TokenService.WriteToken(token) });
-
         }
+
     }
 }
