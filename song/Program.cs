@@ -11,8 +11,12 @@ using Generic.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Token.Services;
 using Microsoft.IdentityModel.Tokens;
+using System.IdentityModel.Tokens.Jwt;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.OpenApi;
+
+// Ensure JWT role claim stays as "role" (not mapped to ClaimTypes.Role)
+JwtSecurityTokenHandler.DefaultInboundClaimTypeMap.Clear();
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -32,6 +36,7 @@ builder.Services.AddActiveUser();
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 .AddJwtBearer(options =>
 {
+    options.MapInboundClaims = false; // keep original claim types (e.g., "role")
     options.TokenValidationParameters =
     TokenService.GetTokenValidationParameters();
 });

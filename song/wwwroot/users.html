@@ -39,23 +39,31 @@
        }      
     </script>
 
-    <h1>USER CRUD</h1>
+    <h1>ניהול משתמשים</h1>
 
-    <h3>Add New User</h3>
+    <h3>הוסף משתמש חדש</h3>
     <form onsubmit="addItem(); return false;">
-        <input type="text" id="add-name" placeholder="user name" required>
-        <input type="text" id="add-age" placeholder="age" required>
-        <input type="submit" value="Add">
+        <input type="text" id="add-name" placeholder="שם משתמש" required>
+        <input type="number" id="add-age" placeholder="גיל" required>
+        <select id="add-role">
+            <option value="user">משתמש</option>
+            <option value="admin">מנהל</option>
+        </select>
+        <input type="submit" value="הוסף">
     </form>
 
     <div id="editForm">
         <h3>Edit User</h3>
         <form onsubmit="updateItem(); return false;">
             <input type="hidden" id="edit-id">
-            <input type="text" id="edit-name" placeholder="User name" required>
-            <input type="text" id="edit-age" placeholder="age" required>
-            <input type="submit" value="Save">
-            <button type="button" onclick="closeInput()">Cancel</button>
+            <input type="text" id="edit-name" placeholder="שם משתמש" required>
+            <input type="number" id="edit-age" placeholder="גיל" required>
+            <select id="edit-role">
+                <option value="user">משתמש</option>
+                <option value="admin">מנהל</option>
+            </select>
+            <input type="submit" value="שמור">
+            <button type="button" onclick="closeInput()">בטל</button>
         </form>
     </div>
 
@@ -64,17 +72,18 @@
     <table>
         <thead>
             <tr>
-                <th>Name</th>
-                <th>Age</th>
-                <th>Edit</th>
-                <th>Delete</th>
+                <th>שם</th>
+                <th>גיל</th>
+                <th>תפקיד</th>
+                <th>עריכה</th>
+                <th>מחיקה</th>
             </tr>
         </thead>
         <tbody id="user"></tbody>
     </table>
     <button onclick="location.href='index.html'">
-  Go to Index Page
-</button>
+        לחזור לדף השירים
+    </button>
 
     <script src="./js/user.js"></script>
 </body>
