@@ -18,7 +18,7 @@ public class LoginController : ControllerBase
         [Route("[action]")]
         public ActionResult<String> Login([FromBody] userType User)
         {
-            if (User == null || string.IsNullOrEmpty(User.Id.ToString()) || string.IsNullOrEmpty(User.Role))
+            if (User == null || string.IsNullOrEmpty(User.Id.ToString()))
             {
                 return BadRequest("Invalid user data.");
             }

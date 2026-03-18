@@ -3,7 +3,7 @@ function login() {
     const id = document.getElementById("userid").value;
   
 
-    fetch('https://localhost:7154/User/Login', {
+    fetch('/Login/Login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ Name: name, Id: id })
