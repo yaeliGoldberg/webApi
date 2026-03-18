@@ -75,25 +75,25 @@ namespace SONG.Controllers
         }
        
 
-        [HttpPost("Login")]
-        [AllowAnonymous]
-   public ActionResult<string> Login([FromBody] userType user)
-        {
-            // йецшйн аъ д-Claims тм бсйс дощъощ щдъчбм
-            var claims = new List<Claim>
-    {
-        new Claim("username", user.Name),
-        new Claim("userid", user.Id.ToString()),
-        new Claim("role", user.Role),
-        new Claim("type", "users")
-    };
+//         [HttpPost("Login")]
+//         [AllowAnonymous]
+//    public ActionResult<string> Login([FromBody] userType user)
+//         {
+//             // пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅ-Claims пїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
+//             var claims = new List<Claim>
+//     {
+//         new Claim("username", user.Name),
+//         new Claim("userid", user.Id.ToString()),
+//         new Claim("role", user.Role),
+//         new Claim("type", "users")
+//     };
 
-            // йецшйн аъ диечп бтжшъ TokenService
-            var token = TokenService.GetToken(claims);
+//             // пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ TokenService
+//             var token = TokenService.GetToken(claims);
 
-            // озжйшйн JSON тн диечп
-            return Ok(new { token = TokenService.WriteToken(token) });
-        }
+//             // пїЅпїЅпїЅпїЅпїЅпїЅпїЅ JSON пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
+//             return Ok(new { token = TokenService.WriteToken(token) });
+//         }
 
     }
 }

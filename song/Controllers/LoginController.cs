@@ -23,7 +23,7 @@ public class LoginController : ControllerBase
         [Route("[action]")]
         public ActionResult<String> Login([FromBody] userType User)
         {
-            if (User == null || string.IsNullOrEmpty(User.Id.ToString()) || string.IsNullOrEmpty(User.Role))
+            if (User == null || string.IsNullOrEmpty(User.Id.ToString()))
             {
                 return BadRequest("Invalid user data.");
             }
@@ -39,7 +39,7 @@ public class LoginController : ControllerBase
             User = existingUser;
 
             var claims = new List<Claim>
-            {   new Claim("userid :", User.Id.ToString()),
+            {   new Claim("userid:", User.Id.ToString()),
                 new Claim("username", User.Name),  
                 new Claim("age", User.age.ToString()),
                 new Claim("role", User.Role ?? "user"),          
