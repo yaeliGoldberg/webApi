@@ -109,25 +109,25 @@ namespace SONG.Controllers
         }
        
 
-        [HttpPost("Login")]
-        [AllowAnonymous]
-   public ActionResult<string> Login([FromBody] userType user)
-        {
-            // ������ �� �-Claims �� ���� ������ ������
-            var claims = new List<Claim>
-    {
-        new Claim("username", user.Name),
-        new Claim("userid", user.Id.ToString()),
-        new Claim("role", user.Role),
-        new Claim("type", "users")
-    };
+//         [HttpPost("Login")]
+//         [AllowAnonymous]
+//    public ActionResult<string> Login([FromBody] userType user)
+//         {
+//             // ������ �� �-Claims �� ���� ������ ������
+//             var claims = new List<Claim>
+//     {
+//         new Claim("username", user.Name),
+//         new Claim("userid", user.Id.ToString()),
+//         new Claim("role", user.Role),
+//         new Claim("type", "users")
+//     };
 
-            // ������ �� ����� ����� TokenService
-            var token = TokenService.GetToken(claims);
+//             // ������ �� ����� ����� TokenService
+//             var token = TokenService.GetToken(claims);
 
-            // ������� JSON �� �����
-            return Ok(new { token = TokenService.WriteToken(token) });
-        }
+//             // ������� JSON �� �����
+//             return Ok(new { token = TokenService.WriteToken(token) });
+//         }
 
     }
 }
