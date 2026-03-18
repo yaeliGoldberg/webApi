@@ -19,18 +19,15 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddHttpContextAccessor();
-
 builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
+builder.Services.AddUser();
 
 
-builder.Services.AddSingleton<IGenericRepository<songType>, GenericRepository<songType>>();
-builder.Services.AddSingleton<IGenericRepository<userType>, GenericRepository<userType>>();
-builder.Services.AddSingleton<Isong, SongService>();
-builder.Services.AddSingleton<Iuser, userService>();
-builder.Services.UseActiveUser();
- 
+builder.Services.AddActiveUser();
+builder.Services.AddSong();
+builder.Services.AddActiveUser();
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 .AddJwtBearer(options =>
@@ -41,8 +38,10 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 
 builder.Services.AddAuthorization(options =>
 {
-    options.AddPolicy("AdminOnly", policy =>
+        options.AddPolicy("AdminOnly", policy =>
         policy.RequireClaim("role", "admin"));
+        options.AddPolicy("User", policy =>
+        policy.RequireClaim("role", "user", "admin"));
 });
 
 var app = builder.Build();

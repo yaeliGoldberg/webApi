@@ -18,7 +18,7 @@ namespace Generic.Services
 
         public GenericRepository(IWebHostEnvironment env)
         {
-            filePath = Path.Combine(env.ContentRootPath, "Data", $"{typeof(T).Name}.json");
+            filePath = Path.Combine(env.ContentRootPath, "Data", $"{typeof(T).Name}s.json");
             if (!File.Exists(filePath))
             {
                 list = new List<T>();

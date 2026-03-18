@@ -4,6 +4,7 @@ using System.Linq;
 using user.interfaces;
 using System.Text.Json;
 using Generic.Interfaces;
+using Generic.Services;
 
 namespace user.Services
 {
@@ -48,5 +49,16 @@ namespace user.Services
         public void Delete(int id) => repository.Delete(id);
         public void Update(userType user) => repository.Update(user);
         public int Count => repository.Count;
+
     }
+    public static partial class UserExtensions
+    {
+        public static IServiceCollection AddUser(this IServiceCollection services)
+        {
+            services.AddSingleton<IGenericRepository<userType>, GenericRepository<userType>>();
+            services.AddScoped<Iuser, userService>();
+            return services;
+        }
+    }
+
 }

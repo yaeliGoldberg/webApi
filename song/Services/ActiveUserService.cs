@@ -24,9 +24,9 @@ namespace Active.Services
 
     }
 
-    public static class UserExtensions
+    public static partial class UserExtensions
     {
-        public static IServiceCollection UseActiveUser(this IServiceCollection services)
+        public static  IServiceCollection AddActiveUser(this IServiceCollection services)
         {
             services.AddScoped<IActiveUser, ActiveUserService>();
             return services;
