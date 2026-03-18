@@ -1,7 +1,13 @@
 using SONG.interfaces;
 using SONG.Services;
+using SONG.Models;
+using user.Models;
 using user.interfaces;
 using user.Services;
+using  Active.Interfaces;
+using Active.Services;
+using Generic.Interfaces;
+using Generic.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Token.Services;
 using Microsoft.IdentityModel.Tokens;
@@ -12,12 +18,19 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
+builder.Services.AddHttpContextAccessor();
+
 builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 
+
+builder.Services.AddSingleton<IGenericRepository<songType>, GenericRepository<songType>>();
+builder.Services.AddSingleton<IGenericRepository<userType>, GenericRepository<userType>>();
 builder.Services.AddSingleton<Isong, SongService>();
 builder.Services.AddSingleton<Iuser, userService>();
+builder.Services.UseActiveUser();
+ 
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 .AddJwtBearer(options =>
