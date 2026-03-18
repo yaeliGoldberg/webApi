@@ -120,7 +120,7 @@ getItems();
 
 console.log("site.js loaded!");
 
-const uri = 'https://localhost:7154/Sing';
+const uri = '/Sing';
 let music = [];
 
 function getToken() {
@@ -141,14 +141,43 @@ function getItems() {
             'Authorization': 'Bearer ' + getToken()
         }
     })
-        .then(response => response.json())
-        .then(data => _displayItems(data))
-        .catch(error => console.error('Unable to get items.', error));
+        .then(response => {
+            if (!response.ok) {
+                if (response.status === 401) {
+                    alert("הפעה פגת - אנא התחבר מחדש");
+                    window.location.href = "login.html";
+                    return Promise.reject("Unauthorized");
+                }
+                if (response.status === 403) {
+                    alert("אין לך הרשאה לצפות בשירים");
+                    return Promise.reject("Forbidden");
+                }
+                throw new Error(`HTTP Error: ${response.status}`);
+            }
+            return response.json();
+        })
+        .then(data => {
+            if (data && Array.isArray(data)) {
+                _displayItems(data);
+            } else {
+                console.warn("לא קיבלנו מערך שירים");
+                _displayItems([]);
+            }
+        })
+        .catch(error => {
+            console.error('Unable to get items.', error);
+            alert("שגיאה בטעינת השירים: " + error.message);
+        });
 }
 
 function addItem() {
     const nameInput = document.getElementById('add-name');
     const singerInput = document.getElementById('add-singer');
+
+    if (!nameInput.value.trim() || !singerInput.value.trim()) {
+        alert("אנא מלא את כל השדות");
+        return;
+    }
 
     const item = {
         name: nameInput.value.trim(),
@@ -160,24 +189,67 @@ function addItem() {
         headers: getAuthHeaders(),
         body: JSON.stringify(item)
     })
-        .then(response => response.json())
+        .then(response => {
+            if (!response.ok) {
+                if (response.status === 401) {
+                    alert("הפעה פגת - אנא התחבר מחדש");
+                    window.location.href = "login.html";
+                    return Promise.reject("Unauthorized");
+                }
+                if (response.status === 403) {
+                    alert("אין לך הרשאה להוסיף שירים");
+                    return Promise.reject("Forbidden");
+                }
+                throw new Error(`HTTP Error: ${response.status}`);
+            }
+            return response.json();
+        })
         .then(() => {
+            alert("השיר נוסף בהצלחה!");
             getItems();
             nameInput.value = '';
             singerInput.value = '';
         })
-        .catch(error => console.error('Unable to add item.', error));
+        .catch(error => {
+            console.error('Unable to add item.', error);
+            alert("שגיאה בהוספת השיר: " + error.message);
+        });
 }
 
 function deleteItem(id) {
+    if (!confirm("האם אתה בטוח שברצונך למחוק את השיר הזה?")) {
+        return;
+    }
+
     fetch(`${uri}/${id}`, {
         method: 'DELETE',
         headers: {
             'Authorization': 'Bearer ' + getToken()
         }
     })
-        .then(() => getItems())
-        .catch(error => console.error('Unable to delete item.', error));
+        .then(response => {
+            if (!response.ok) {
+                if (response.status === 401) {
+                    alert("הפעה פגת - אנא התחבר מחדש");
+                    window.location.href = "login.html";
+                    return Promise.reject("Unauthorized");
+                }
+                if (response.status === 403) {
+                    alert("אין לך הרשאה למחוק שיר זה");
+                    return Promise.reject("Forbidden");
+                }
+                throw new Error(`HTTP Error: ${response.status}`);
+            }
+            return response.text();
+        })
+        .then(() => {
+            alert("השיר נמחק בהצלחה!");
+            getItems();
+        })
+        .catch(error => {
+            console.error('Unable to delete item.', error);
+            alert("שגיאה במחיקת השיר: " + error.message);
+        });
 }
 
 function displayEditForm(id) {
@@ -193,6 +265,11 @@ function displayEditForm(id) {
 function updateItem() {
     const itemId = parseInt(document.getElementById('edit-id').value, 10);
 
+    if (!document.getElementById('edit-name').value.trim() || !document.getElementById('edit-singer').value.trim()) {
+        alert("אנא מלא את כל השדות");
+        return;
+    }
+
     const item = {
         id: itemId,
         name: document.getElementById('edit-name').value.trim(),
@@ -204,10 +281,31 @@ function updateItem() {
         headers: getAuthHeaders(),
         body: JSON.stringify(item)
     })
-        .then(() => getItems())
-        .catch(error => console.error('Unable to update item.', error));
+        .then(response => {
+            if (!response.ok) {
+                if (response.status === 401) {
+                    alert("הפעה פגת - אנא התחבר מחדש");
+                    window.location.href = "login.html";
+                    return Promise.reject("Unauthorized");
+                }
+                if (response.status === 403) {
+                    alert("אין לך הרשאה לערוך שיר זה");
+                    return Promise.reject("Forbidden");
+                }
+                throw new Error(`HTTP Error: ${response.status}`);
+            }
+            return response.text();
+        })
+        .then(() => {
+            alert("השיר עודכן בהצלחה!");
+            getItems();
+            closeInput();
+        })
+        .catch(error => {
+            console.error('Unable to update item.', error);
+            alert("שגיאה בעדכון השיר: " + error.message);
+        });
 
-    closeInput();
     return false;
 }
 
@@ -216,7 +314,7 @@ function closeInput() {
 }
 
 function _displayCount(count) {
-    const name = (count === 1) ? 'song' : 'songs';
+    const name = (count === 1) ? 'שיר' : 'שירים';
     document.getElementById('counter').innerText = `${count} ${name}`;
 }
 
@@ -236,13 +334,13 @@ function _displayItems(data) {
 
         const td3 = tr.insertCell(2);
         const editBtn = document.createElement('button');
-        editBtn.textContent = 'Edit';
+        editBtn.textContent = 'עריכה';
         editBtn.addEventListener('click', () => displayEditForm(item.id));
         td3.appendChild(editBtn);
 
         const td4 = tr.insertCell(3);
         const delBtn = document.createElement('button');
-        delBtn.textContent = 'Delete';
+        delBtn.textContent = 'מחיקה';
         delBtn.addEventListener('click', () => deleteItem(item.id));
         td4.appendChild(delBtn);
     });
@@ -250,5 +348,6 @@ function _displayItems(data) {
     music = data;
 }
 
-//getItems();
+// Load items initially
+getItems();
 

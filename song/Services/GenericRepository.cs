@@ -18,7 +18,18 @@ namespace Generic.Services
 
         public GenericRepository(IWebHostEnvironment env)
         {
-            filePath = Path.Combine(env.ContentRootPath, "Data", $"{typeof(T).Name}s.json");
+            // The JSON files are named like "Users.json" and "Songs.json",
+            // while the model types are named "userType" and "songType".
+            // Normalize the type name to match the data file naming.
+            var typeName = typeof(T).Name;
+            if (typeName.EndsWith("Type", StringComparison.OrdinalIgnoreCase))
+            {
+                typeName = typeName.Substring(0, typeName.Length - 4);
+            }
+
+            typeName = char.ToUpperInvariant(typeName[0]) + typeName.Substring(1);
+            filePath = Path.Combine(env.ContentRootPath, "Data", $"{typeName}s.json");
+
             if (!File.Exists(filePath))
             {
                 list = new List<T>();

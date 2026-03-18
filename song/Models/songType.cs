@@ -6,5 +6,6 @@ namespace SONG.Models
         public int Id { get; set; }
         public string Name { get; set; }
         public string singer { get; set; }
+        public int UserId { get; set; }
     }
 } 
