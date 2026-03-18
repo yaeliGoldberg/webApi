@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Mvc;
 using user.Models;
-using user.Services;
+using user.interfaces;
 using Token.Services;
 
 namespace user.Controllers;
@@ -12,43 +12,46 @@ namespace user.Controllers;
 [Route("[controller]")]
 public class LoginController : ControllerBase
 {
-    private readonly userService _userService;
+    private readonly Iuser _userService;
 
-    public LoginController(userService userService)
+    public LoginController(Iuser userService)
     {
         _userService = userService;
     }
 
-        [HttpPost]
-        [Route("[action]")]
-        public ActionResult<String> Login([FromBody] userType User)
+    [HttpPost]
+    [Route("[action]")]
+    public ActionResult<string> Login([FromBody] userType User)
+    {
+        if (User == null || User.Id <= 0 || string.IsNullOrWhiteSpace(User.Name))
         {
-            if (User == null || string.IsNullOrEmpty(User.Id.ToString()))
-            {
-                return BadRequest("Invalid user data.");
-            }
-
-            // Check if user exists in the users list
-            var existingUser = _userService.Users.FirstOrDefault(u => u.Id == User.Id);
-            if (existingUser == null)
-            {
-                return BadRequest("User does not exist in the system.");
-            }
-
-            // Use the actual user data from the system
-            User = existingUser;
-
-            var claims = new List<Claim>
-            {   new Claim("userid:", User.Id.ToString()),
-                new Claim("username", User.Name),  
-                new Claim("age", User.age.ToString()),
-                new Claim("role", User.Role ?? "user"),          
-                new Claim("type", "users"),
-            };
-
-            var token = TokenService.GetToken(claims);
-           // return new OkObjectResult(TokenService.WriteToken(token));
-            return Ok(new { token = TokenService.WriteToken(token) });
-
+            return BadRequest("Invalid user data.");
         }
+
+        // Validate against stored users
+        var existingUser = _userService.Get(User.Id);
+        if (existingUser == null)
+        {
+            return Unauthorized("המשתמש עם מזהה זה לא קיים במערכת.");
+        }
+        if (!string.Equals(existingUser.Name, User.Name, StringComparison.OrdinalIgnoreCase))
+        {
+            return Unauthorized("שם המשתמש לא תואם למזהה שניתן.");
+        }
+
+        var claims = new List<Claim>
+        {
+            new Claim("userid", existingUser.Id.ToString()),
+            new Claim("username", existingUser.Name),
+            new Claim("age", existingUser.age.ToString()),
+            new Claim("role", existingUser.Role ?? "user"),
+            new Claim("type", "users"),
+        };
+
+           //  console.log(existingUser.Role);
+             
+        var token = TokenService.GetToken(claims);
+        return Ok(new { token = TokenService.WriteToken(token) });
+
+    }
 }
