@@ -19,7 +19,7 @@ namespace SongLog.Services
     {
         private IConnection connection;
         private IChannel channel;
-        private const string QueueName = "song-logs";
+               private const string QueueName = "song-logs";
 
         public RabbitMqService()
         {
@@ -62,7 +62,7 @@ namespace SongLog.Services
         
     }
 //שאלה לגבי ה  RabbitMqService - האם צריך להוסיף את ה  IActiveUser כדי לקבל את ה  activeUserId וה  activeUsername ולשלוח אותם ב  SongLogMessage? או שעדיף להשאיר את זה כמו שזה ולקבל את המידע הזה ב  SongLogWorker מהמסד נתונים או ממקור אחר?
-    public static partial class KsPizzaExtensions
+    public static partial class RabbitMqExtensions
     {
         public static IServiceCollection AddRabbitMq(this IServiceCollection services)
         {

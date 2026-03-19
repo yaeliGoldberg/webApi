@@ -16,6 +16,7 @@ using System.IdentityModel.Tokens.Jwt;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.OpenApi;
 using SongLog.Services;
+using System.Threading.Tasks;
 
 // Ensure JWT role claim stays as "role" (not mapped to ClaimTypes.Role)
 JwtSecurityTokenHandler.DefaultInboundClaimTypeMap.Clear();

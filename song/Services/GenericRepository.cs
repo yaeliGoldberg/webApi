@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Hosting;
 using Entity.Interfaces;
 using SongLog.Services;
 using SongLog.Models;
+using System.Threading.Tasks;
 
 namespace Generic.Services
 {
@@ -16,13 +17,12 @@ namespace Generic.Services
     {
         private readonly string filePath;
         private readonly List<T> list;
-
-
-        public GenericRepository(IWebHostEnvironment env)
+               public GenericRepository(IWebHostEnvironment env )
         {
             // The JSON files are named like "Users.json" and "Songs.json",
             // while the model types are named "userType" and "songType".
             // Normalize the type name to match the data file naming.
+          
             var typeName = typeof(T).Name;
             if (typeName.EndsWith("Type", StringComparison.OrdinalIgnoreCase))
             {
@@ -76,23 +76,12 @@ namespace Generic.Services
 
             list[index] = obj;
             Save();
+           
         }
 
         public int Count => list.Count;
 
-        private void QueueActivityBroadcast(songType song)
-        {
-            var message = new SongLogMessage
-            {
-                UserId =
-                Username = Log.Username,
-                SongName = Log.SongName,
-                Timestamp = DateTime.UtcNow
-            };
-
-            rabbitMqService.PublishSongLog(message).Wait();
-        }
-
+       
 
     }
 }
