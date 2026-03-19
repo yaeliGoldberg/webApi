@@ -5,8 +5,13 @@ using SONG.interfaces;
 using System.Text.Json;
 using Generic.Interfaces;
 using Generic.Services;
+using SongLog.Services;
+using SongLog.Models;
+using System;
 using Microsoft.AspNetCore.SignalR;
 using SONG.Hubs;
+using Active.Services;
+using Active.Interfaces;
 
 namespace SONG.Services
 {
@@ -36,25 +41,40 @@ namespace SONG.Services
 
 
         private readonly IGenericRepository<songType> repository;
+        private readonly IRabbitMqService rabbitMqService;
         private readonly IHubContext<ActivityHub> _hubContext;
+        private readonly int activeUserId;
+        private readonly string activeUsername;
 
-        public SongService(IGenericRepository<songType> repository, IHubContext<ActivityHub> hubContext)
+        public SongService(IGenericRepository<songType> repository, IActiveUser activeUser, IRabbitMqService rabbitMqService, IHubContext<ActivityHub> hubContext)
         {
             this.repository = repository;
+            this.rabbitMqService = rabbitMqService;
             this._hubContext = hubContext;
+            //public userType? ActiveUser { get; private set; }
+           var user = activeUser?.ActiveUser;
+            if (user is null)
+                throw new System.InvalidOperationException("Active user is required");
+            this.activeUserId = user.Id;
+            this.activeUsername = user.Name;
         }
 
+        public List<songType> GetAll()
+        {
+            return repository.GetAll();
+        }
 
+        public songType Get(int id)
+        {
+            return repository.Get(id);
+        }
 
-
-        public List<songType> GetAll() => repository.GetAll();
-
-        public songType Get(int id) => repository.Get(id);
 
         public void Add(songType song)
         {
             repository.Add(song);
             NotifyUser(song.UserId, "songAdded", song);
+            QueueActivityBroadcast(song);
         }
 
         public void Delete(int id)
@@ -64,6 +84,7 @@ namespace SONG.Services
             {
                 repository.Delete(id);
                 NotifyUser(song.UserId, "songDeleted", new { id });
+                QueueActivityBroadcast(song);
             }
         }
 
@@ -71,6 +92,8 @@ namespace SONG.Services
         {
             repository.Update(song);
             NotifyUser(song.UserId, "songUpdated", song);
+            QueueActivityBroadcast(song);
+
         }
 
         private void NotifyUser(int userId, string action, object data)
@@ -81,9 +104,33 @@ namespace SONG.Services
 
 
         public int Count => repository.Count;
+
+
+        private async Task QueueActivityBroadcast(songType song)
+        {
+            var message = new SongLogMessage
+            {
+                UserId = activeUserId,
+                Username = activeUsername,
+                SongName = song.Name,
+                Timestamp = DateTime.UtcNow
+
+            };
+            try
+            {
+                await rabbitMqService.PublishSongLog(message);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+
+        }
+        //                                 שאלה
+        //לשאול  את פניני לגבי המשתנים של ה activeUserId וה activeUsername
     }
 
-      public static partial class SongExtensions
+    public static partial class SongExtensions
     {
         public static IServiceCollection AddSong(this IServiceCollection services)
         {

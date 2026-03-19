@@ -127,7 +127,7 @@ let music = [];
 const connection = new signalR.HubConnectionBuilder()
     .withUrl("/activityHub", {
         accessTokenFactory: () => localStorage.getItem("token")
-    })
+    })   
     .withAutomaticReconnect()
     .build();
 
