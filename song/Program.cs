@@ -1,6 +1,7 @@
 using SONG.interfaces;
 using SONG.Services;
 using SONG.Models;
+using SONG.Hubs;
 using user.Models;
 using user.interfaces;
 using user.Services;
@@ -32,6 +33,7 @@ builder.Services.AddUser();
 builder.Services.AddActiveUser();
 builder.Services.AddSong();
 builder.Services.AddActiveUser();
+builder.Services.AddSignalR();
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 .AddJwtBearer(options =>
@@ -67,4 +69,5 @@ app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();
+app.MapHub<ActivityHub>("/activityHub");
 app.Run();

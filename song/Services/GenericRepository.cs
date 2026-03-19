@@ -47,7 +47,7 @@ namespace Generic.Services
 
         public List<T> GetAll() => list;
 
-        public T Get(int id) => list.FirstOrDefault(p => p.Id == id);
+        public T? Get(int id) => list.FirstOrDefault(p => p.Id == id);
 
         public void Add(T obj)
         {
