@@ -123,6 +123,23 @@ console.log("site.js loaded!");
 const uri = '/Sing';
 let music = [];
 
+// SignalR Connection
+const connection = new signalR.HubConnectionBuilder()
+    .withUrl("/activityHub", {
+        accessTokenFactory: () => localStorage.getItem("token")
+    })
+    .withAutomaticReconnect()
+    .build();
+
+connection.on("ReceiveUpdate", (action, data) => {
+    console.log(`Received update: ${action}`, data);
+    // Refresh the list when any update is received
+    getItems();
+});
+
+connection.start()
+    .catch(err => console.error('SignalR connection error:', err));
+
 function getToken() {
     return localStorage.getItem("token");
 }
@@ -206,9 +223,9 @@ function addItem() {
         })
         .then(() => {
             alert("השיר נוסף בהצלחה!");
-            getItems();
             nameInput.value = '';
             singerInput.value = '';
+            // SignalR will refresh the list automatically
         })
         .catch(error => {
             console.error('Unable to add item.', error);
@@ -244,7 +261,7 @@ function deleteItem(id) {
         })
         .then(() => {
             alert("השיר נמחק בהצלחה!");
-            getItems();
+            // SignalR will refresh the list automatically
         })
         .catch(error => {
             console.error('Unable to delete item.', error);
@@ -298,8 +315,8 @@ function updateItem() {
         })
         .then(() => {
             alert("השיר עודכן בהצלחה!");
-            getItems();
             closeInput();
+            // SignalR will refresh the list automatically
         })
         .catch(error => {
             console.error('Unable to update item.', error);

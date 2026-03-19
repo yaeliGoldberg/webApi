@@ -8,6 +8,8 @@ using Generic.Services;
 using SongLog.Services;
 using SongLog.Models;
 using System;
+using Microsoft.AspNetCore.SignalR;
+using SONG.Hubs;
 
 namespace SONG.Services
 {
@@ -38,27 +40,48 @@ namespace SONG.Services
 
         private readonly IGenericRepository<songType> repository;
         private readonly IRabbitMqService rabbitMqService;
+           private readonly IHubContext<ActivityHub> _hubContext;
        // private readonly int activeUserId;
       //  private readonly string activeUsername;
 
-        public SongService(IGenericRepository<songType> repository, IRabbitMqService rabbitMqService)
+        public SongService(IGenericRepository<songType> repository, IRabbitMqService rabbitMqService, IHubContext<ActivityHub> hubContext)
         {
             this.repository = repository;
             this.rabbitMqService = rabbitMqService;
+            this._hubContext = hubContext;
         }
-
-
-
 
         public List<songType> GetAll() => repository.GetAll();
 
         public songType Get(int id) => repository.Get(id);
 
-        public void Add(songType song) => repository.Add(song);
+        public void Add(songType song)
+        {
+            repository.Add(song);
+            NotifyUser(song.UserId, "songAdded", song);
+        }
 
-        public void Delete(int id) => repository.Delete(id);
+        public void Delete(int id)
+        {
+            var song = repository.Get(id);
+            if (song != null)
+            {
+                repository.Delete(id);
+                NotifyUser(song.UserId, "songDeleted", new { id });
+            }
+        }
 
-        public void Update(songType song) => repository.Update(song);
+        public void Update(songType song)
+        {
+            repository.Update(song);
+            NotifyUser(song.UserId, "songUpdated", song);
+        }
+
+        private void NotifyUser(int userId, string action, object data)
+        {
+            var connectionIds = ActivityHub.GetUserConnections(userId.ToString());
+            _hubContext.Clients.Clients(connectionIds).SendAsync("ReceiveUpdate", action, data);
+        }
 
 
         public int Count => repository.Count;
@@ -66,21 +89,6 @@ namespace SONG.Services
 
 //                                 שאלה
 //לשאול  את פניני לגבי המשתנים של ה activeUserId וה activeUsername
-
-
-        private void QueueActivityBroadcast(songType song)
-        {
-            var message = new SongLogMessage
-            {
-                UserId =
-                Username = Log.Username,
-                SongName = Log.SongName,
-                Timestamp = DateTime.UtcNow
-            };
-
-            rabbitMqService.PublishSongLog(message).Wait();
-        }
-
     }
 
 

@@ -7,10 +7,12 @@ using SONG.Models;
 using user.Models;
 using Microsoft.AspNetCore.Hosting;
 using Entity.Interfaces;
+using SongLog.Services;
+using SongLog.Models;
 
 namespace Generic.Services
 {
-    public class GenericRepository<T> : IGenericRepository<T> where T :  IEntity
+    public class GenericRepository<T> : IGenericRepository<T> where T : IEntity
     {
         private readonly string filePath;
         private readonly List<T> list;
@@ -47,7 +49,7 @@ namespace Generic.Services
 
         public List<T> GetAll() => list;
 
-        public T Get(int id) => list.FirstOrDefault(p => p.Id == id);
+        public T? Get(int id) => list.FirstOrDefault(p => p.Id == id);
 
         public void Add(T obj)
         {
@@ -78,7 +80,19 @@ namespace Generic.Services
 
         public int Count => list.Count;
 
+        private void QueueActivityBroadcast(songType song)
+        {
+            var message = new SongLogMessage
+            {
+                UserId =
+                Username = Log.Username,
+                SongName = Log.SongName,
+                Timestamp = DateTime.UtcNow
+            };
 
-        
+            rabbitMqService.PublishSongLog(message).Wait();
+        }
+
+
     }
 }
