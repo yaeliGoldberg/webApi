@@ -14,6 +14,7 @@ using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.OpenApi;
+using SongLog.Services;
 
 // Ensure JWT role claim stays as "role" (not mapped to ClaimTypes.Role)
 JwtSecurityTokenHandler.DefaultInboundClaimTypeMap.Clear();
@@ -32,6 +33,7 @@ builder.Services.AddUser();
 builder.Services.AddActiveUser();
 builder.Services.AddSong();
 builder.Services.AddActiveUser();
+builder.Services.AddRabbitMq();
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 .AddJwtBearer(options =>
@@ -39,6 +41,19 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     options.MapInboundClaims = false; // keep original claim types (e.g., "role")
     options.TokenValidationParameters =
     TokenService.GetTokenValidationParameters();
+    options.Events = new JwtBearerEvents
+                    {
+                        OnMessageReceived = context =>
+                        {
+                            var accessToken = context.Request.Query["access_token"];
+                            var path = context.HttpContext.Request.Path;
+                            if (!string.IsNullOrEmpty(accessToken) && path.StartsWithSegments("/activityHub"))
+                            {
+                                context.Token = accessToken;
+                            }
+                            return Task.CompletedTask;
+                        }
+                    };
 });
 
 builder.Services.AddAuthorization(options =>
